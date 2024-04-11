@@ -1,0 +1,6834 @@
+$timescale 50 ns
+$end
+$var wire 1 rst rst $end
+$var wire 1 ps2_clk ps2_clk $end
+$var wire 1 ps2_data ps2_data $end
+$var wire 1 lcd_db[0] lcd_db[0] $end
+$var wire 1 lcd_db[1] lcd_db[1] $end
+$var wire 1 lcd_db[2] lcd_db[2] $end
+$var wire 1 lcd_db[3] lcd_db[3] $end
+$var wire 1 lcd_db[4] lcd_db[4] $end
+$var wire 1 lcd_db[5] lcd_db[5] $end
+$var wire 1 lcd_db[6] lcd_db[6] $end
+$var wire 1 lcd_db[7] lcd_db[7] $end
+$var wire 1 ledr[0] ledr[0] $end
+$var wire 1 ledr[1] ledr[1] $end
+$var wire 1 ledr[2] ledr[2] $end
+$var wire 1 ledr[3] ledr[3] $end
+$var wire 1 seg0[0] seg0[0] $end
+$var wire 1 seg0[1] seg0[1] $end
+$var wire 1 seg0[2] seg0[2] $end
+$var wire 1 seg0[3] seg0[3] $end
+$var wire 1 seg0[4] seg0[4] $end
+$var wire 1 seg0[5] seg0[5] $end
+$var wire 1 seg0[6] seg0[6] $end
+$var wire 1 seg0[7] seg0[7] $end
+$var wire 1 seg1[0] seg1[0] $end
+$var wire 1 seg1[1] seg1[1] $end
+$var wire 1 seg1[2] seg1[2] $end
+$var wire 1 seg1[3] seg1[3] $end
+$var wire 1 seg1[4] seg1[4] $end
+$var wire 1 seg1[5] seg1[5] $end
+$var wire 1 seg1[6] seg1[6] $end
+$var wire 1 seg1[7] seg1[7] $end
+$var wire 1 seg2[0] seg2[0] $end
+$var wire 1 seg2[1] seg2[1] $end
+$var wire 1 seg2[2] seg2[2] $end
+$var wire 1 seg2[3] seg2[3] $end
+$var wire 1 seg2[4] seg2[4] $end
+$var wire 1 seg2[5] seg2[5] $end
+$var wire 1 seg2[6] seg2[6] $end
+$var wire 1 seg2[7] seg2[7] $end
+$var wire 1 seg3[0] seg3[0] $end
+$var wire 1 seg3[1] seg3[1] $end
+$var wire 1 seg3[2] seg3[2] $end
+$var wire 1 seg3[3] seg3[3] $end
+$var wire 1 seg3[4] seg3[4] $end
+$var wire 1 seg3[5] seg3[5] $end
+$var wire 1 seg3[6] seg3[6] $end
+$var wire 1 seg3[7] seg3[7] $end
+$var wire 1 lcd_en lcd_en $end
+$enddefinitions $end
+$dumpvars
+b0 rst
+b0 ps2_clk
+b0 ps2_data
+b0 lcd_db[0]
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[4]
+b0 lcd_db[5]
+b0 lcd_db[6]
+b0 lcd_db[7]
+b0 ledr[0]
+b0 ledr[1]
+b0 ledr[2]
+b0 ledr[3]
+b0 seg0[0]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[0]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 seg2[0]
+b0 seg2[1]
+b0 seg2[2]
+b0 seg2[3]
+b0 seg2[4]
+b0 seg2[5]
+b0 seg2[6]
+b0 seg2[7]
+b0 seg3[0]
+b0 seg3[1]
+b0 seg3[2]
+b0 seg3[3]
+b0 seg3[4]
+b0 seg3[5]
+b0 seg3[6]
+b0 seg3[7]
+b0 lcd_en
+$end
+#0
+b1 seg0[0]
+b1 seg0[1]
+b1 seg1[0]
+b1 seg1[1]
+b1 seg2[0]
+b1 seg2[1]
+b1 seg3[0]
+b1 seg3[1]
+b1 lcd_en
+b1 ps2_clk
+b1 ps2_data
+#28600
+b1 rst
+#29000
+b0 rst
+#34500
+b0 ps2_data
+#34900
+b0 ps2_clk
+#35300
+b1 ps2_clk
+b1 ps2_data
+#35700
+b0 ps2_clk
+#36100
+b1 ps2_clk
+#36500
+b0 ps2_clk
+#36900
+b1 ps2_clk
+b0 ps2_data
+#37300
+b0 ps2_clk
+#37700
+b1 ps2_clk
+#38100
+b0 ps2_clk
+#38500
+b1 ps2_clk
+#38900
+b0 ps2_clk
+#39300
+b1 ps2_clk
+#39700
+b0 ps2_clk
+#40100
+b1 ps2_clk
+b1 ps2_data
+#40500
+b0 ps2_clk
+#40900
+b1 ps2_clk
+b0 ps2_data
+#41300
+b0 ps2_clk
+#41700
+b1 ps2_clk
+#42100
+b0 ps2_clk
+#42500
+b1 ps2_clk
+b1 ps2_data
+#42900
+b0 ps2_clk
+#42905
+b1 lcd_db[0]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b0 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[7]
+b0 lcd_en
+#42906
+b0 lcd_db[0]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#43300
+b1 ps2_clk
+#44900
+b0 ps2_data
+#45300
+b0 ps2_clk
+#45700
+b1 ps2_clk
+#46100
+b0 ps2_clk
+#46500
+b1 ps2_clk
+#46900
+b0 ps2_clk
+#47300
+b1 ps2_clk
+#47700
+b0 ps2_clk
+#48100
+b1 ps2_clk
+#48500
+b0 ps2_clk
+#48900
+b1 ps2_clk
+b1 ps2_data
+#49300
+b0 ps2_clk
+#49700
+b1 ps2_clk
+#50100
+b0 ps2_clk
+#50500
+b1 ps2_clk
+#50900
+b0 ps2_clk
+#51300
+b1 ps2_clk
+#51700
+b0 ps2_clk
+#52100
+b1 ps2_clk
+#52500
+b0 ps2_clk
+#52900
+b1 ps2_clk
+#53300
+b0 ps2_clk
+#53305
+b1 seg0[1]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[5]
+b1 seg1[6]
+#53700
+b1 ps2_clk
+#55300
+b0 ps2_data
+#55700
+b0 ps2_clk
+#56100
+b1 ps2_clk
+b1 ps2_data
+#56500
+b0 ps2_clk
+#56900
+b1 ps2_clk
+#57300
+b0 ps2_clk
+#57700
+b1 ps2_clk
+b0 ps2_data
+#58100
+b0 ps2_clk
+#58500
+b1 ps2_clk
+#58900
+b0 ps2_clk
+#59300
+b1 ps2_clk
+#59700
+b0 ps2_clk
+#60100
+b1 ps2_clk
+#60500
+b0 ps2_clk
+#60900
+b1 ps2_clk
+b1 ps2_data
+#61300
+b0 ps2_clk
+#61700
+b1 ps2_clk
+b0 ps2_data
+#62100
+b0 ps2_clk
+#62500
+b1 ps2_clk
+#62900
+b0 ps2_clk
+#63300
+b1 ps2_clk
+b1 ps2_data
+#63700
+b0 ps2_clk
+#63705
+b1 seg2[2]
+b1 seg2[3]
+b1 seg2[4]
+b1 seg2[7]
+#64100
+b1 ps2_clk
+#65700
+b0 ps2_data
+#66100
+b0 ps2_clk
+#66500
+b1 ps2_clk
+#66900
+b0 ps2_clk
+#67300
+b1 ps2_clk
+b1 ps2_data
+#67700
+b0 ps2_clk
+#68100
+b1 ps2_clk
+b0 ps2_data
+#68500
+b0 ps2_clk
+#68900
+b1 ps2_clk
+#69300
+b0 ps2_clk
+#69700
+b1 ps2_clk
+b1 ps2_data
+#70100
+b0 ps2_clk
+#70500
+b1 ps2_clk
+b0 ps2_data
+#70900
+b0 ps2_clk
+#71300
+b1 ps2_clk
+b1 ps2_data
+#71700
+b0 ps2_clk
+#72100
+b1 ps2_clk
+b0 ps2_data
+#72500
+b0 ps2_clk
+#72900
+b1 ps2_clk
+#73300
+b0 ps2_clk
+#73700
+b1 ps2_clk
+b1 ps2_data
+#74100
+b0 ps2_clk
+#74105
+b1 lcd_db[0]
+b1 lcd_db[1]
+b1 lcd_db[2]
+b0 seg0[1]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[7]
+b0 lcd_en
+#74106
+b0 lcd_db[0]
+b0 lcd_db[1]
+b0 lcd_db[2]
+b1 lcd_en
+#74500
+b1 ps2_clk
+#76100
+b0 ps2_data
+#76500
+b0 ps2_clk
+#76900
+b1 ps2_clk
+#77300
+b0 ps2_clk
+#77700
+b1 ps2_clk
+#78100
+b0 ps2_clk
+#78500
+b1 ps2_clk
+#78900
+b0 ps2_clk
+#79300
+b1 ps2_clk
+#79700
+b0 ps2_clk
+#80100
+b1 ps2_clk
+b1 ps2_data
+#80500
+b0 ps2_clk
+#80900
+b1 ps2_clk
+#81300
+b0 ps2_clk
+#81700
+b1 ps2_clk
+#82100
+b0 ps2_clk
+#82500
+b1 ps2_clk
+#82900
+b0 ps2_clk
+#83300
+b1 ps2_clk
+#83700
+b0 ps2_clk
+#84100
+b1 ps2_clk
+#84500
+b0 ps2_clk
+#84505
+b1 seg0[1]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[7]
+#84900
+b1 ps2_clk
+#86500
+b0 ps2_data
+#86900
+b0 ps2_clk
+#87300
+b1 ps2_clk
+#87700
+b0 ps2_clk
+#88100
+b1 ps2_clk
+b1 ps2_data
+#88500
+b0 ps2_clk
+#88900
+b1 ps2_clk
+b0 ps2_data
+#89300
+b0 ps2_clk
+#89700
+b1 ps2_clk
+#90100
+b0 ps2_clk
+#90500
+b1 ps2_clk
+b1 ps2_data
+#90900
+b0 ps2_clk
+#91300
+b1 ps2_clk
+b0 ps2_data
+#91700
+b0 ps2_clk
+#92100
+b1 ps2_clk
+b1 ps2_data
+#92500
+b0 ps2_clk
+#92900
+b1 ps2_clk
+b0 ps2_data
+#93300
+b0 ps2_clk
+#93700
+b1 ps2_clk
+#94100
+b0 ps2_clk
+#94500
+b1 ps2_clk
+b1 ps2_data
+#94900
+b0 ps2_clk
+#94905
+b0 seg2[1]
+b0 seg2[3]
+b0 seg2[4]
+b1 seg2[5]
+b0 seg2[7]
+#95300
+b1 ps2_clk
+#96900
+b0 ps2_data
+#97300
+b0 ps2_clk
+#97700
+b1 ps2_clk
+#98100
+b0 ps2_clk
+#98500
+b1 ps2_clk
+b1 ps2_data
+#98900
+b0 ps2_clk
+#99300
+b1 ps2_clk
+b0 ps2_data
+#99700
+b0 ps2_clk
+#100100
+b1 ps2_clk
+b1 ps2_data
+#100500
+b0 ps2_clk
+#100900
+b1 ps2_clk
+#101300
+b0 ps2_clk
+#101700
+b1 ps2_clk
+#102100
+b0 ps2_clk
+#102500
+b1 ps2_clk
+b0 ps2_data
+#102900
+b0 ps2_clk
+#103300
+b1 ps2_clk
+#103700
+b0 ps2_clk
+#104100
+b1 ps2_clk
+b1 ps2_data
+#104500
+b0 ps2_clk
+#104900
+b1 ps2_clk
+#105300
+b0 ps2_clk
+#105305
+b1 lcd_db[0]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#105306
+b0 lcd_db[0]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#105700
+b1 ps2_clk
+#107300
+b0 ps2_data
+#107700
+b0 ps2_clk
+#108100
+b1 ps2_clk
+#108500
+b0 ps2_clk
+#108900
+b1 ps2_clk
+#109300
+b0 ps2_clk
+#109700
+b1 ps2_clk
+#110100
+b0 ps2_clk
+#110500
+b1 ps2_clk
+#110900
+b0 ps2_clk
+#111300
+b1 ps2_clk
+b1 ps2_data
+#111700
+b0 ps2_clk
+#112100
+b1 ps2_clk
+#112500
+b0 ps2_clk
+#112900
+b1 ps2_clk
+#113300
+b0 ps2_clk
+#113700
+b1 ps2_clk
+#114100
+b0 ps2_clk
+#114500
+b1 ps2_clk
+#114900
+b0 ps2_clk
+#115300
+b1 ps2_clk
+#115700
+b0 ps2_clk
+#115705
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#116100
+b1 ps2_clk
+#117700
+b0 ps2_data
+#118100
+b0 ps2_clk
+#118500
+b1 ps2_clk
+#118900
+b0 ps2_clk
+#119300
+b1 ps2_clk
+b1 ps2_data
+#119700
+b0 ps2_clk
+#120100
+b1 ps2_clk
+b0 ps2_data
+#120500
+b0 ps2_clk
+#120900
+b1 ps2_clk
+b1 ps2_data
+#121300
+b0 ps2_clk
+#121700
+b1 ps2_clk
+#122100
+b0 ps2_clk
+#122500
+b1 ps2_clk
+#122900
+b0 ps2_clk
+#123300
+b1 ps2_clk
+b0 ps2_data
+#123700
+b0 ps2_clk
+#124100
+b1 ps2_clk
+#124500
+b0 ps2_clk
+#124900
+b1 ps2_clk
+b1 ps2_data
+#125300
+b0 ps2_clk
+#125700
+b1 ps2_clk
+#126100
+b0 ps2_clk
+#126105
+b1 seg2[3]
+b0 seg2[5]
+#126500
+b1 ps2_clk
+#128100
+b0 ps2_data
+#128500
+b0 ps2_clk
+#128900
+b1 ps2_clk
+b1 ps2_data
+#129300
+b0 ps2_clk
+#129700
+b1 ps2_clk
+b0 ps2_data
+#130100
+b0 ps2_clk
+#130500
+b1 ps2_clk
+#130900
+b0 ps2_clk
+#131300
+b1 ps2_clk
+b1 ps2_data
+#131700
+b0 ps2_clk
+#132100
+b1 ps2_clk
+b0 ps2_data
+#132500
+b0 ps2_clk
+#132900
+b1 ps2_clk
+b1 ps2_data
+#133300
+b0 ps2_clk
+#133700
+b1 ps2_clk
+b0 ps2_data
+#134100
+b0 ps2_clk
+#134500
+b1 ps2_clk
+#134900
+b0 ps2_clk
+#135300
+b1 ps2_clk
+#135700
+b0 ps2_clk
+#136100
+b1 ps2_clk
+b1 ps2_data
+#136500
+b0 ps2_clk
+#136505
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#136506
+b1 lcd_en
+#136900
+b1 ps2_clk
+#138500
+b0 ps2_data
+#138900
+b0 ps2_clk
+#139300
+b1 ps2_clk
+#139700
+b0 ps2_clk
+#140100
+b1 ps2_clk
+#140500
+b0 ps2_clk
+#140900
+b1 ps2_clk
+#141300
+b0 ps2_clk
+#141700
+b1 ps2_clk
+#142100
+b0 ps2_clk
+#142500
+b1 ps2_clk
+b1 ps2_data
+#142900
+b0 ps2_clk
+#143300
+b1 ps2_clk
+#143700
+b0 ps2_clk
+#144100
+b1 ps2_clk
+#144500
+b0 ps2_clk
+#144900
+b1 ps2_clk
+#145300
+b0 ps2_clk
+#145700
+b1 ps2_clk
+#146100
+b0 ps2_clk
+#146500
+b1 ps2_clk
+#146900
+b0 ps2_clk
+#146905
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#147300
+b1 ps2_clk
+#148900
+b0 ps2_data
+#149300
+b0 ps2_clk
+#149700
+b1 ps2_clk
+b1 ps2_data
+#150100
+b0 ps2_clk
+#150500
+b1 ps2_clk
+b0 ps2_data
+#150900
+b0 ps2_clk
+#151300
+b1 ps2_clk
+#151700
+b0 ps2_clk
+#152100
+b1 ps2_clk
+b1 ps2_data
+#152500
+b0 ps2_clk
+#152900
+b1 ps2_clk
+b0 ps2_data
+#153300
+b0 ps2_clk
+#153700
+b1 ps2_clk
+b1 ps2_data
+#154100
+b0 ps2_clk
+#154500
+b1 ps2_clk
+b0 ps2_data
+#154900
+b0 ps2_clk
+#155300
+b1 ps2_clk
+#155700
+b0 ps2_clk
+#156100
+b1 ps2_clk
+#156500
+b0 ps2_clk
+#156900
+b1 ps2_clk
+b1 ps2_data
+#157300
+b0 ps2_clk
+#157305
+b0 seg2[2]
+b1 seg2[4]
+b1 seg2[7]
+#157700
+b1 ps2_clk
+#159300
+b0 ps2_data
+#159700
+b0 ps2_clk
+#160100
+b1 ps2_clk
+#160500
+b0 ps2_clk
+#160900
+b1 ps2_clk
+b1 ps2_data
+#161300
+b0 ps2_clk
+#161700
+b1 ps2_clk
+b0 ps2_data
+#162100
+b0 ps2_clk
+#162500
+b1 ps2_clk
+#162900
+b0 ps2_clk
+#163300
+b1 ps2_clk
+b1 ps2_data
+#163700
+b0 ps2_clk
+#164100
+b1 ps2_clk
+b0 ps2_data
+#164500
+b0 ps2_clk
+#164900
+b1 ps2_clk
+#165300
+b0 ps2_clk
+#165700
+b1 ps2_clk
+#166100
+b0 ps2_clk
+#166500
+b1 ps2_clk
+b1 ps2_data
+#166900
+b0 ps2_clk
+#167300
+b1 ps2_clk
+#167700
+b0 ps2_clk
+#167705
+b1 ledr[2]
+b0 seg0[1]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[5]
+b0 seg1[6]
+#168100
+b1 ps2_clk
+#169700
+b0 ps2_data
+#170100
+b0 ps2_clk
+#170500
+b1 ps2_clk
+b1 ps2_data
+#170900
+b0 ps2_clk
+#171300
+b1 ps2_clk
+#171700
+b0 ps2_clk
+#172100
+b1 ps2_clk
+b0 ps2_data
+#172500
+b0 ps2_clk
+#172900
+b1 ps2_clk
+b1 ps2_data
+#173300
+b0 ps2_clk
+#173700
+b1 ps2_clk
+#174100
+b0 ps2_clk
+#174500
+b1 ps2_clk
+#174900
+b0 ps2_clk
+#175300
+b1 ps2_clk
+b0 ps2_data
+#175700
+b0 ps2_clk
+#176100
+b1 ps2_clk
+#176500
+b0 ps2_clk
+#176900
+b1 ps2_clk
+#177300
+b0 ps2_clk
+#177700
+b1 ps2_clk
+b1 ps2_data
+#178100
+b0 ps2_clk
+#178105
+b1 lcd_db[1]
+b1 lcd_db[3]
+b1 lcd_db[5]
+b0 seg0[2]
+b0 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[7]
+b0 lcd_en
+#178106
+b0 lcd_db[1]
+b0 lcd_db[3]
+b0 lcd_db[5]
+b1 lcd_en
+#178500
+b1 ps2_clk
+#180100
+b0 ps2_data
+#180500
+b0 ps2_clk
+#180900
+b1 ps2_clk
+#181300
+b0 ps2_clk
+#181700
+b1 ps2_clk
+#182100
+b0 ps2_clk
+#182500
+b1 ps2_clk
+#182900
+b0 ps2_clk
+#183300
+b1 ps2_clk
+#183700
+b0 ps2_clk
+#184100
+b1 ps2_clk
+b1 ps2_data
+#184500
+b0 ps2_clk
+#184900
+b1 ps2_clk
+#185300
+b0 ps2_clk
+#185700
+b1 ps2_clk
+#186100
+b0 ps2_clk
+#186500
+b1 ps2_clk
+#186900
+b0 ps2_clk
+#187300
+b1 ps2_clk
+#187700
+b0 ps2_clk
+#188100
+b1 ps2_clk
+#188500
+b0 ps2_clk
+#188505
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#188900
+b1 ps2_clk
+#190500
+b0 ps2_data
+#190900
+b0 ps2_clk
+#191300
+b1 ps2_clk
+b1 ps2_data
+#191700
+b0 ps2_clk
+#192100
+b1 ps2_clk
+#192500
+b0 ps2_clk
+#192900
+b1 ps2_clk
+b0 ps2_data
+#193300
+b0 ps2_clk
+#193700
+b1 ps2_clk
+b1 ps2_data
+#194100
+b0 ps2_clk
+#194500
+b1 ps2_clk
+#194900
+b0 ps2_clk
+#195300
+b1 ps2_clk
+#195700
+b0 ps2_clk
+#196100
+b1 ps2_clk
+b0 ps2_data
+#196500
+b0 ps2_clk
+#196900
+b1 ps2_clk
+#197300
+b0 ps2_clk
+#197700
+b1 ps2_clk
+#198100
+b0 ps2_clk
+#198500
+b1 ps2_clk
+b1 ps2_data
+#198900
+b0 ps2_clk
+#198905
+b0 seg2[4]
+b1 seg2[6]
+b0 seg2[7]
+#199300
+b1 ps2_clk
+#200900
+b0 ps2_data
+#201300
+b0 ps2_clk
+#201700
+b1 ps2_clk
+#202100
+b0 ps2_clk
+#202500
+b1 ps2_clk
+#202900
+b0 ps2_clk
+#203300
+b1 ps2_clk
+#203700
+b0 ps2_clk
+#204100
+b1 ps2_clk
+#204500
+b0 ps2_clk
+#204900
+b1 ps2_clk
+b1 ps2_data
+#205300
+b0 ps2_clk
+#205700
+b1 ps2_clk
+#206100
+b0 ps2_clk
+#206500
+b1 ps2_clk
+#206900
+b0 ps2_clk
+#207300
+b1 ps2_clk
+#207700
+b0 ps2_clk
+#208100
+b1 ps2_clk
+#208500
+b0 ps2_clk
+#208900
+b1 ps2_clk
+#209300
+b0 ps2_clk
+#209700
+b1 ps2_clk
+#211300
+b0 ps2_data
+#211700
+b0 ps2_clk
+#212100
+b1 ps2_clk
+#212500
+b0 ps2_clk
+#212900
+b1 ps2_clk
+b1 ps2_data
+#213300
+b0 ps2_clk
+#213700
+b1 ps2_clk
+b0 ps2_data
+#214100
+b0 ps2_clk
+#214500
+b1 ps2_clk
+#214900
+b0 ps2_clk
+#215300
+b1 ps2_clk
+b1 ps2_data
+#215700
+b0 ps2_clk
+#216100
+b1 ps2_clk
+b0 ps2_data
+#216500
+b0 ps2_clk
+#216900
+b1 ps2_clk
+#217300
+b0 ps2_clk
+#217700
+b1 ps2_clk
+#218100
+b0 ps2_clk
+#218500
+b1 ps2_clk
+b1 ps2_data
+#218900
+b0 ps2_clk
+#219300
+b1 ps2_clk
+#219700
+b0 ps2_clk
+#219705
+b0 ledr[2]
+b0 seg2[3]
+#220100
+b1 ps2_clk
+#221700
+b0 ps2_data
+#222100
+b0 ps2_clk
+#222500
+b1 ps2_clk
+b1 ps2_data
+#222900
+b0 ps2_clk
+#223300
+b1 ps2_clk
+#223700
+b0 ps2_clk
+#224100
+b1 ps2_clk
+b0 ps2_data
+#224500
+b0 ps2_clk
+#224900
+b1 ps2_clk
+#225300
+b0 ps2_clk
+#225700
+b1 ps2_clk
+#226100
+b0 ps2_clk
+#226500
+b1 ps2_clk
+#226900
+b0 ps2_clk
+#227300
+b1 ps2_clk
+b1 ps2_data
+#227700
+b0 ps2_clk
+#228100
+b1 ps2_clk
+b0 ps2_data
+#228500
+b0 ps2_clk
+#228900
+b1 ps2_clk
+#229300
+b0 ps2_clk
+#229700
+b1 ps2_clk
+b1 ps2_data
+#230100
+b0 ps2_clk
+#230105
+b1 lcd_db[0]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[5]
+b0 seg1[6]
+b0 lcd_en
+#230106
+b0 lcd_db[0]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#230500
+b1 ps2_clk
+#232100
+b0 ps2_data
+#232500
+b0 ps2_clk
+#232900
+b1 ps2_clk
+#233300
+b0 ps2_clk
+#233700
+b1 ps2_clk
+#234100
+b0 ps2_clk
+#234500
+b1 ps2_clk
+#234900
+b0 ps2_clk
+#235300
+b1 ps2_clk
+#235700
+b0 ps2_clk
+#236100
+b1 ps2_clk
+b1 ps2_data
+#236500
+b0 ps2_clk
+#236900
+b1 ps2_clk
+#237300
+b0 ps2_clk
+#237700
+b1 ps2_clk
+#238100
+b0 ps2_clk
+#238500
+b1 ps2_clk
+#238900
+b0 ps2_clk
+#239300
+b1 ps2_clk
+#239700
+b0 ps2_clk
+#240100
+b1 ps2_clk
+#240500
+b0 ps2_clk
+#240505
+b1 seg0[1]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[5]
+b1 seg1[6]
+#240900
+b1 ps2_clk
+#242500
+b0 ps2_data
+#242900
+b0 ps2_clk
+#243300
+b1 ps2_clk
+b1 ps2_data
+#243700
+b0 ps2_clk
+#244100
+b1 ps2_clk
+#244500
+b0 ps2_clk
+#244900
+b1 ps2_clk
+b0 ps2_data
+#245300
+b0 ps2_clk
+#245700
+b1 ps2_clk
+#246100
+b0 ps2_clk
+#246500
+b1 ps2_clk
+#246900
+b0 ps2_clk
+#247300
+b1 ps2_clk
+#247700
+b0 ps2_clk
+#248100
+b1 ps2_clk
+b1 ps2_data
+#248500
+b0 ps2_clk
+#248900
+b1 ps2_clk
+b0 ps2_data
+#249300
+b0 ps2_clk
+#249700
+b1 ps2_clk
+#250100
+b0 ps2_clk
+#250500
+b1 ps2_clk
+b1 ps2_data
+#250900
+b0 ps2_clk
+#250905
+b1 seg2[1]
+b1 seg2[2]
+b1 seg2[3]
+b1 seg2[4]
+b0 seg2[6]
+#251300
+b1 ps2_clk
+#252900
+b0 ps2_data
+#253300
+b0 ps2_clk
+#253700
+b1 ps2_clk
+#254100
+b0 ps2_clk
+#254500
+b1 ps2_clk
+#254900
+b0 ps2_clk
+#255300
+b1 ps2_clk
+b1 ps2_data
+#255700
+b0 ps2_clk
+#256100
+b1 ps2_clk
+#256500
+b0 ps2_clk
+#256900
+b1 ps2_clk
+#257300
+b0 ps2_clk
+#257700
+b1 ps2_clk
+b0 ps2_data
+#258100
+b0 ps2_clk
+#258500
+b1 ps2_clk
+#258900
+b0 ps2_clk
+#259300
+b1 ps2_clk
+#259700
+b0 ps2_clk
+#260100
+b1 ps2_clk
+#260500
+b0 ps2_clk
+#260900
+b1 ps2_clk
+b1 ps2_data
+#261300
+b0 ps2_clk
+#261305
+b1 lcd_db[0]
+b1 lcd_db[6]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[7]
+b0 seg1[5]
+b0 seg1[6]
+b0 lcd_en
+#261306
+b0 lcd_db[0]
+b0 lcd_db[6]
+b1 lcd_en
+#261700
+b1 ps2_clk
+#263300
+b0 ps2_data
+#263700
+b0 ps2_clk
+#264100
+b1 ps2_clk
+#264500
+b0 ps2_clk
+#264900
+b1 ps2_clk
+#265300
+b0 ps2_clk
+#265700
+b1 ps2_clk
+#266100
+b0 ps2_clk
+#266500
+b1 ps2_clk
+#266900
+b0 ps2_clk
+#267300
+b1 ps2_clk
+b1 ps2_data
+#267700
+b0 ps2_clk
+#268100
+b1 ps2_clk
+#268500
+b0 ps2_clk
+#268900
+b1 ps2_clk
+#269300
+b0 ps2_clk
+#269700
+b1 ps2_clk
+#270100
+b0 ps2_clk
+#270500
+b1 ps2_clk
+#270900
+b0 ps2_clk
+#271300
+b1 ps2_clk
+#271700
+b0 ps2_clk
+#271705
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[7]
+b1 seg1[5]
+b1 seg1[6]
+#272100
+b1 ps2_clk
+#273700
+b0 ps2_data
+#274100
+b0 ps2_clk
+#274500
+b1 ps2_clk
+#274900
+b0 ps2_clk
+#275300
+b1 ps2_clk
+#275700
+b0 ps2_clk
+#276100
+b1 ps2_clk
+b1 ps2_data
+#276500
+b0 ps2_clk
+#276900
+b1 ps2_clk
+#277300
+b0 ps2_clk
+#277700
+b1 ps2_clk
+#278100
+b0 ps2_clk
+#278500
+b1 ps2_clk
+b0 ps2_data
+#278900
+b0 ps2_clk
+#279300
+b1 ps2_clk
+#279700
+b0 ps2_clk
+#280100
+b1 ps2_clk
+#280500
+b0 ps2_clk
+#280900
+b1 ps2_clk
+#281300
+b0 ps2_clk
+#281700
+b1 ps2_clk
+b1 ps2_data
+#282100
+b0 ps2_clk
+#282105
+b0 seg2[1]
+b0 seg2[2]
+b0 seg2[3]
+b0 seg2[4]
+#282500
+b1 ps2_clk
+#284100
+b0 ps2_data
+#284500
+b0 ps2_clk
+#284900
+b1 ps2_clk
+b1 ps2_data
+#285300
+b0 ps2_clk
+#285700
+b1 ps2_clk
+b0 ps2_data
+#286100
+b0 ps2_clk
+#286500
+b1 ps2_clk
+#286900
+b0 ps2_clk
+#287300
+b1 ps2_clk
+#287700
+b0 ps2_clk
+#288100
+b1 ps2_clk
+b1 ps2_data
+#288500
+b0 ps2_clk
+#288900
+b1 ps2_clk
+#289300
+b0 ps2_clk
+#289700
+b1 ps2_clk
+b0 ps2_data
+#290100
+b0 ps2_clk
+#290500
+b1 ps2_clk
+#290900
+b0 ps2_clk
+#291300
+b1 ps2_clk
+#291700
+b0 ps2_clk
+#292100
+b1 ps2_clk
+b1 ps2_data
+#292500
+b0 ps2_clk
+#292505
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#292506
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#292900
+b1 ps2_clk
+#294500
+b0 ps2_data
+#294900
+b0 ps2_clk
+#295300
+b1 ps2_clk
+#295700
+b0 ps2_clk
+#296100
+b1 ps2_clk
+#296500
+b0 ps2_clk
+#296900
+b1 ps2_clk
+#297300
+b0 ps2_clk
+#297700
+b1 ps2_clk
+#298100
+b0 ps2_clk
+#298500
+b1 ps2_clk
+b1 ps2_data
+#298900
+b0 ps2_clk
+#299300
+b1 ps2_clk
+#299700
+b0 ps2_clk
+#300100
+b1 ps2_clk
+#300500
+b0 ps2_clk
+#300900
+b1 ps2_clk
+#301300
+b0 ps2_clk
+#301700
+b1 ps2_clk
+#302100
+b0 ps2_clk
+#302500
+b1 ps2_clk
+#302900
+b0 ps2_clk
+#302905
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#303300
+b1 ps2_clk
+#304900
+b0 ps2_data
+#305300
+b0 ps2_clk
+#305700
+b1 ps2_clk
+b1 ps2_data
+#306100
+b0 ps2_clk
+#306500
+b1 ps2_clk
+b0 ps2_data
+#306900
+b0 ps2_clk
+#307300
+b1 ps2_clk
+#307700
+b0 ps2_clk
+#308100
+b1 ps2_clk
+#308500
+b0 ps2_clk
+#308900
+b1 ps2_clk
+b1 ps2_data
+#309300
+b0 ps2_clk
+#309700
+b1 ps2_clk
+#310100
+b0 ps2_clk
+#310500
+b1 ps2_clk
+b0 ps2_data
+#310900
+b0 ps2_clk
+#311300
+b1 ps2_clk
+#311700
+b0 ps2_clk
+#312100
+b1 ps2_clk
+#312500
+b0 ps2_clk
+#312900
+b1 ps2_clk
+b1 ps2_data
+#313300
+b0 ps2_clk
+#313305
+b1 seg2[3]
+#313700
+b1 ps2_clk
+#315300
+b0 ps2_data
+#315700
+b0 ps2_clk
+#316100
+b1 ps2_clk
+b1 ps2_data
+#316500
+b0 ps2_clk
+#316900
+b1 ps2_clk
+b0 ps2_data
+#317300
+b0 ps2_clk
+#317700
+b1 ps2_clk
+b1 ps2_data
+#318100
+b0 ps2_clk
+#318500
+b1 ps2_clk
+#318900
+b0 ps2_clk
+#319300
+b1 ps2_clk
+b0 ps2_data
+#319700
+b0 ps2_clk
+#320100
+b1 ps2_clk
+b1 ps2_data
+#320500
+b0 ps2_clk
+#320900
+b1 ps2_clk
+b0 ps2_data
+#321300
+b0 ps2_clk
+#321700
+b1 ps2_clk
+#322100
+b0 ps2_clk
+#322500
+b1 ps2_clk
+b1 ps2_data
+#322900
+b0 ps2_clk
+#323300
+b1 ps2_clk
+#323700
+b0 ps2_clk
+#323705
+b1 lcd_db[1]
+b1 lcd_db[4]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#323706
+b0 lcd_db[1]
+b0 lcd_db[4]
+b0 lcd_db[6]
+b1 lcd_en
+#324100
+b1 ps2_clk
+#325700
+b0 ps2_data
+#326100
+b0 ps2_clk
+#326500
+b1 ps2_clk
+#326900
+b0 ps2_clk
+#327300
+b1 ps2_clk
+#327700
+b0 ps2_clk
+#328100
+b1 ps2_clk
+#328500
+b0 ps2_clk
+#328900
+b1 ps2_clk
+#329300
+b0 ps2_clk
+#329700
+b1 ps2_clk
+b1 ps2_data
+#330100
+b0 ps2_clk
+#330500
+b1 ps2_clk
+#330900
+b0 ps2_clk
+#331300
+b1 ps2_clk
+#331700
+b0 ps2_clk
+#332100
+b1 ps2_clk
+#332500
+b0 ps2_clk
+#332900
+b1 ps2_clk
+#333300
+b0 ps2_clk
+#333700
+b1 ps2_clk
+#334100
+b0 ps2_clk
+#334105
+b1 seg0[1]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#334500
+b1 ps2_clk
+#336100
+b0 ps2_data
+#336500
+b0 ps2_clk
+#336900
+b1 ps2_clk
+b1 ps2_data
+#337300
+b0 ps2_clk
+#337700
+b1 ps2_clk
+b0 ps2_data
+#338100
+b0 ps2_clk
+#338500
+b1 ps2_clk
+b1 ps2_data
+#338900
+b0 ps2_clk
+#339300
+b1 ps2_clk
+#339700
+b0 ps2_clk
+#340100
+b1 ps2_clk
+b0 ps2_data
+#340500
+b0 ps2_clk
+#340900
+b1 ps2_clk
+b1 ps2_data
+#341300
+b0 ps2_clk
+#341700
+b1 ps2_clk
+b0 ps2_data
+#342100
+b0 ps2_clk
+#342500
+b1 ps2_clk
+#342900
+b0 ps2_clk
+#343300
+b1 ps2_clk
+b1 ps2_data
+#343700
+b0 ps2_clk
+#344100
+b1 ps2_clk
+#344500
+b0 ps2_clk
+#344505
+b0 seg2[3]
+b1 seg2[4]
+#344900
+b1 ps2_clk
+#346500
+b0 ps2_data
+#346900
+b0 ps2_clk
+#347300
+b1 ps2_clk
+#347700
+b0 ps2_clk
+#348100
+b1 ps2_clk
+#348500
+b0 ps2_clk
+#348900
+b1 ps2_clk
+b1 ps2_data
+#349300
+b0 ps2_clk
+#349700
+b1 ps2_clk
+b0 ps2_data
+#350100
+b0 ps2_clk
+#350500
+b1 ps2_clk
+#350900
+b0 ps2_clk
+#351300
+b1 ps2_clk
+#351700
+b0 ps2_clk
+#352100
+b1 ps2_clk
+b1 ps2_data
+#352500
+b0 ps2_clk
+#352900
+b1 ps2_clk
+b0 ps2_data
+#353300
+b0 ps2_clk
+#353700
+b1 ps2_clk
+b1 ps2_data
+#354100
+b0 ps2_clk
+#354500
+b1 ps2_clk
+#354900
+b0 ps2_clk
+#354905
+b1 lcd_db[0]
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[5]
+b0 seg1[6]
+b0 lcd_en
+#354906
+b0 lcd_db[0]
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#355300
+b1 ps2_clk
+#356900
+b0 ps2_data
+#357300
+b0 ps2_clk
+#357700
+b1 ps2_clk
+#358100
+b0 ps2_clk
+#358500
+b1 ps2_clk
+#358900
+b0 ps2_clk
+#359300
+b1 ps2_clk
+#359700
+b0 ps2_clk
+#360100
+b1 ps2_clk
+#360500
+b0 ps2_clk
+#360900
+b1 ps2_clk
+b1 ps2_data
+#361300
+b0 ps2_clk
+#361700
+b1 ps2_clk
+#362100
+b0 ps2_clk
+#362500
+b1 ps2_clk
+#362900
+b0 ps2_clk
+#363300
+b1 ps2_clk
+#363700
+b0 ps2_clk
+#364100
+b1 ps2_clk
+#364500
+b0 ps2_clk
+#364900
+b1 ps2_clk
+#365300
+b0 ps2_clk
+#365305
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[5]
+b1 seg1[6]
+#365700
+b1 ps2_clk
+#367300
+b0 ps2_data
+#367700
+b0 ps2_clk
+#368100
+b1 ps2_clk
+#368500
+b0 ps2_clk
+#368900
+b1 ps2_clk
+#369300
+b0 ps2_clk
+#369700
+b1 ps2_clk
+b1 ps2_data
+#370100
+b0 ps2_clk
+#370500
+b1 ps2_clk
+b0 ps2_data
+#370900
+b0 ps2_clk
+#371300
+b1 ps2_clk
+#371700
+b0 ps2_clk
+#372100
+b1 ps2_clk
+#372500
+b0 ps2_clk
+#372900
+b1 ps2_clk
+b1 ps2_data
+#373300
+b0 ps2_clk
+#373700
+b1 ps2_clk
+b0 ps2_data
+#374100
+b0 ps2_clk
+#374500
+b1 ps2_clk
+b1 ps2_data
+#374900
+b0 ps2_clk
+#375300
+b1 ps2_clk
+#375700
+b0 ps2_clk
+#375705
+b0 seg2[4]
+b1 seg2[6]
+b1 seg2[7]
+#376100
+b1 ps2_clk
+#377700
+b0 ps2_data
+#378100
+b0 ps2_clk
+#378500
+b1 ps2_clk
+b1 ps2_data
+#378900
+b0 ps2_clk
+#379300
+b1 ps2_clk
+b0 ps2_data
+#379700
+b0 ps2_clk
+#380100
+b1 ps2_clk
+#380500
+b0 ps2_clk
+#380900
+b1 ps2_clk
+#381300
+b0 ps2_clk
+#381700
+b1 ps2_clk
+b1 ps2_data
+#382100
+b0 ps2_clk
+#382500
+b1 ps2_clk
+#382900
+b0 ps2_clk
+#383300
+b1 ps2_clk
+b0 ps2_data
+#383700
+b0 ps2_clk
+#384100
+b1 ps2_clk
+#384500
+b0 ps2_clk
+#384900
+b1 ps2_clk
+#385300
+b0 ps2_clk
+#385700
+b1 ps2_clk
+b1 ps2_data
+#386100
+b0 ps2_clk
+#386105
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#386106
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#386500
+b1 ps2_clk
+#388100
+b0 ps2_data
+#388500
+b0 ps2_clk
+#388900
+b1 ps2_clk
+#389300
+b0 ps2_clk
+#389700
+b1 ps2_clk
+#390100
+b0 ps2_clk
+#390500
+b1 ps2_clk
+#390900
+b0 ps2_clk
+#391300
+b1 ps2_clk
+#391700
+b0 ps2_clk
+#392100
+b1 ps2_clk
+b1 ps2_data
+#392500
+b0 ps2_clk
+#392900
+b1 ps2_clk
+#393300
+b0 ps2_clk
+#393700
+b1 ps2_clk
+#394100
+b0 ps2_clk
+#394500
+b1 ps2_clk
+#394900
+b0 ps2_clk
+#395300
+b1 ps2_clk
+#395700
+b0 ps2_clk
+#396100
+b1 ps2_clk
+#396500
+b0 ps2_clk
+#396505
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#396900
+b1 ps2_clk
+#398500
+b0 ps2_data
+#398900
+b0 ps2_clk
+#399300
+b1 ps2_clk
+b1 ps2_data
+#399700
+b0 ps2_clk
+#400100
+b1 ps2_clk
+b0 ps2_data
+#400500
+b0 ps2_clk
+#400900
+b1 ps2_clk
+#401300
+b0 ps2_clk
+#401700
+b1 ps2_clk
+#402100
+b0 ps2_clk
+#402500
+b1 ps2_clk
+b1 ps2_data
+#402900
+b0 ps2_clk
+#403300
+b1 ps2_clk
+#403700
+b0 ps2_clk
+#404100
+b1 ps2_clk
+b0 ps2_data
+#404500
+b0 ps2_clk
+#404900
+b1 ps2_clk
+#405300
+b0 ps2_clk
+#405700
+b1 ps2_clk
+#406100
+b0 ps2_clk
+#406500
+b1 ps2_clk
+b1 ps2_data
+#406900
+b0 ps2_clk
+#406905
+b1 seg2[1]
+b1 seg2[5]
+b0 seg2[7]
+#407300
+b1 ps2_clk
+#408900
+b0 ps2_data
+#409300
+b0 ps2_clk
+#409700
+b1 ps2_clk
+#410100
+b0 ps2_clk
+#410500
+b1 ps2_clk
+#410900
+b0 ps2_clk
+#411300
+b1 ps2_clk
+b1 ps2_data
+#411700
+b0 ps2_clk
+#412100
+b1 ps2_clk
+b0 ps2_data
+#412500
+b0 ps2_clk
+#412900
+b1 ps2_clk
+b1 ps2_data
+#413300
+b0 ps2_clk
+#413700
+b1 ps2_clk
+#414100
+b0 ps2_clk
+#414500
+b1 ps2_clk
+b0 ps2_data
+#414900
+b0 ps2_clk
+#415300
+b1 ps2_clk
+#415700
+b0 ps2_clk
+#416100
+b1 ps2_clk
+#416500
+b0 ps2_clk
+#416900
+b1 ps2_clk
+b1 ps2_data
+#417300
+b0 ps2_clk
+#417305
+b1 lcd_db[0]
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#417306
+b0 lcd_db[0]
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[6]
+b1 lcd_en
+#417700
+b1 ps2_clk
+#419300
+b0 ps2_data
+#419700
+b0 ps2_clk
+#420100
+b1 ps2_clk
+#420500
+b0 ps2_clk
+#420900
+b1 ps2_clk
+#421300
+b0 ps2_clk
+#421700
+b1 ps2_clk
+#422100
+b0 ps2_clk
+#422500
+b1 ps2_clk
+#422900
+b0 ps2_clk
+#423300
+b1 ps2_clk
+b1 ps2_data
+#423700
+b0 ps2_clk
+#424100
+b1 ps2_clk
+#424500
+b0 ps2_clk
+#424900
+b1 ps2_clk
+#425300
+b0 ps2_clk
+#425700
+b1 ps2_clk
+#426100
+b0 ps2_clk
+#426500
+b1 ps2_clk
+#426900
+b0 ps2_clk
+#427300
+b1 ps2_clk
+#427700
+b0 ps2_clk
+#427705
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#428100
+b1 ps2_clk
+#429700
+b0 ps2_data
+#430100
+b0 ps2_clk
+#430500
+b1 ps2_clk
+#430900
+b0 ps2_clk
+#431300
+b1 ps2_clk
+#431700
+b0 ps2_clk
+#432100
+b1 ps2_clk
+b1 ps2_data
+#432500
+b0 ps2_clk
+#432900
+b1 ps2_clk
+b0 ps2_data
+#433300
+b0 ps2_clk
+#433700
+b1 ps2_clk
+b1 ps2_data
+#434100
+b0 ps2_clk
+#434500
+b1 ps2_clk
+#434900
+b0 ps2_clk
+#435300
+b1 ps2_clk
+b0 ps2_data
+#435700
+b0 ps2_clk
+#436100
+b1 ps2_clk
+#436500
+b0 ps2_clk
+#436900
+b1 ps2_clk
+#437300
+b0 ps2_clk
+#437700
+b1 ps2_clk
+b1 ps2_data
+#438100
+b0 ps2_clk
+#438105
+b0 seg2[1]
+b1 seg2[2]
+b0 seg2[5]
+b0 seg2[6]
+b1 seg2[7]
+#438500
+b1 ps2_clk
+#440100
+b0 ps2_data
+#440500
+b0 ps2_clk
+#440900
+b1 ps2_clk
+b1 ps2_data
+#441300
+b0 ps2_clk
+#441700
+b1 ps2_clk
+b0 ps2_data
+#442100
+b0 ps2_clk
+#442500
+b1 ps2_clk
+#442900
+b0 ps2_clk
+#443300
+b1 ps2_clk
+b1 ps2_data
+#443700
+b0 ps2_clk
+#444100
+b1 ps2_clk
+b0 ps2_data
+#444500
+b0 ps2_clk
+#444900
+b1 ps2_clk
+b1 ps2_data
+#445300
+b0 ps2_clk
+#445700
+b1 ps2_clk
+b0 ps2_data
+#446100
+b0 ps2_clk
+#446500
+b1 ps2_clk
+#446900
+b0 ps2_clk
+#447300
+b1 ps2_clk
+#447700
+b0 ps2_clk
+#448100
+b1 ps2_clk
+b1 ps2_data
+#448500
+b0 ps2_clk
+#448505
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#448506
+b1 lcd_en
+#448900
+b1 ps2_clk
+#450500
+b0 ps2_data
+#450900
+b0 ps2_clk
+#451300
+b1 ps2_clk
+#451700
+b0 ps2_clk
+#452100
+b1 ps2_clk
+#452500
+b0 ps2_clk
+#452900
+b1 ps2_clk
+#453300
+b0 ps2_clk
+#453700
+b1 ps2_clk
+#454100
+b0 ps2_clk
+#454500
+b1 ps2_clk
+b1 ps2_data
+#454900
+b0 ps2_clk
+#455300
+b1 ps2_clk
+#455700
+b0 ps2_clk
+#456100
+b1 ps2_clk
+#456500
+b0 ps2_clk
+#456900
+b1 ps2_clk
+#457300
+b0 ps2_clk
+#457700
+b1 ps2_clk
+#458100
+b0 ps2_clk
+#458500
+b1 ps2_clk
+#458900
+b0 ps2_clk
+#458905
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#459300
+b1 ps2_clk
+#460900
+b0 ps2_data
+#461300
+b0 ps2_clk
+#461700
+b1 ps2_clk
+b1 ps2_data
+#462100
+b0 ps2_clk
+#462500
+b1 ps2_clk
+b0 ps2_data
+#462900
+b0 ps2_clk
+#463300
+b1 ps2_clk
+#463700
+b0 ps2_clk
+#464100
+b1 ps2_clk
+b1 ps2_data
+#464500
+b0 ps2_clk
+#464900
+b1 ps2_clk
+b0 ps2_data
+#465300
+b0 ps2_clk
+#465700
+b1 ps2_clk
+b1 ps2_data
+#466100
+b0 ps2_clk
+#466500
+b1 ps2_clk
+b0 ps2_data
+#466900
+b0 ps2_clk
+#467300
+b1 ps2_clk
+#467700
+b0 ps2_clk
+#468100
+b1 ps2_clk
+#468500
+b0 ps2_clk
+#468900
+b1 ps2_clk
+b1 ps2_data
+#469300
+b0 ps2_clk
+#469305
+b0 seg2[2]
+b1 seg2[5]
+b1 seg2[6]
+b0 seg2[7]
+#469700
+b1 ps2_clk
+#471300
+b0 ps2_data
+#471700
+b0 ps2_clk
+#472100
+b1 ps2_clk
+#472500
+b0 ps2_clk
+#472900
+b1 ps2_clk
+b1 ps2_data
+#473300
+b0 ps2_clk
+#473700
+b1 ps2_clk
+b0 ps2_data
+#474100
+b0 ps2_clk
+#474500
+b1 ps2_clk
+#474900
+b0 ps2_clk
+#475300
+b1 ps2_clk
+b1 ps2_data
+#475700
+b0 ps2_clk
+#476100
+b1 ps2_clk
+b0 ps2_data
+#476500
+b0 ps2_clk
+#476900
+b1 ps2_clk
+#477300
+b0 ps2_clk
+#477700
+b1 ps2_clk
+#478100
+b0 ps2_clk
+#478500
+b1 ps2_clk
+b1 ps2_data
+#478900
+b0 ps2_clk
+#479300
+b1 ps2_clk
+#479700
+b0 ps2_clk
+#479705
+b1 ledr[2]
+b0 seg0[1]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[5]
+b0 seg1[6]
+#480100
+b1 ps2_clk
+#481700
+b0 ps2_data
+#482100
+b0 ps2_clk
+#482500
+b1 ps2_clk
+#482900
+b0 ps2_clk
+#483300
+b1 ps2_clk
+b1 ps2_data
+#483700
+b0 ps2_clk
+#484100
+b1 ps2_clk
+b0 ps2_data
+#484500
+b0 ps2_clk
+#484900
+b1 ps2_clk
+b1 ps2_data
+#485300
+b0 ps2_clk
+#485700
+b1 ps2_clk
+#486100
+b0 ps2_clk
+#486500
+b1 ps2_clk
+b0 ps2_data
+#486900
+b0 ps2_clk
+#487300
+b1 ps2_clk
+#487700
+b0 ps2_clk
+#488100
+b1 ps2_clk
+#488500
+b0 ps2_clk
+#488900
+b1 ps2_clk
+#489300
+b0 ps2_clk
+#489700
+b1 ps2_clk
+b1 ps2_data
+#490100
+b0 ps2_clk
+#490105
+b1 lcd_db[1]
+b1 lcd_db[3]
+b1 lcd_db[4]
+b1 lcd_db[5]
+b0 seg0[2]
+b1 seg0[4]
+b0 seg0[5]
+b0 lcd_en
+#490106
+b0 lcd_db[1]
+b0 lcd_db[3]
+b0 lcd_db[4]
+b0 lcd_db[5]
+b1 lcd_en
+#490500
+b1 ps2_clk
+#492100
+b0 ps2_data
+#492500
+b0 ps2_clk
+#492900
+b1 ps2_clk
+#493300
+b0 ps2_clk
+#493700
+b1 ps2_clk
+#494100
+b0 ps2_clk
+#494500
+b1 ps2_clk
+#494900
+b0 ps2_clk
+#495300
+b1 ps2_clk
+#495700
+b0 ps2_clk
+#496100
+b1 ps2_clk
+b1 ps2_data
+#496500
+b0 ps2_clk
+#496900
+b1 ps2_clk
+#497300
+b0 ps2_clk
+#497700
+b1 ps2_clk
+#498100
+b0 ps2_clk
+#498500
+b1 ps2_clk
+#498900
+b0 ps2_clk
+#499300
+b1 ps2_clk
+#499700
+b0 ps2_clk
+#500100
+b1 ps2_clk
+#500500
+b0 ps2_clk
+#500505
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[5]
+b1 seg1[6]
+#500900
+b1 ps2_clk
+#502500
+b0 ps2_data
+#502900
+b0 ps2_clk
+#503300
+b1 ps2_clk
+#503700
+b0 ps2_clk
+#504100
+b1 ps2_clk
+b1 ps2_data
+#504500
+b0 ps2_clk
+#504900
+b1 ps2_clk
+b0 ps2_data
+#505300
+b0 ps2_clk
+#505700
+b1 ps2_clk
+b1 ps2_data
+#506100
+b0 ps2_clk
+#506500
+b1 ps2_clk
+#506900
+b0 ps2_clk
+#507300
+b1 ps2_clk
+b0 ps2_data
+#507700
+b0 ps2_clk
+#508100
+b1 ps2_clk
+#508500
+b0 ps2_clk
+#508900
+b1 ps2_clk
+#509300
+b0 ps2_clk
+#509700
+b1 ps2_clk
+#510100
+b0 ps2_clk
+#510500
+b1 ps2_clk
+b1 ps2_data
+#510900
+b0 ps2_clk
+#510905
+b1 seg2[4]
+#511300
+b1 ps2_clk
+#512900
+b0 ps2_data
+#513300
+b0 ps2_clk
+#513700
+b1 ps2_clk
+#514100
+b0 ps2_clk
+#514500
+b1 ps2_clk
+#514900
+b0 ps2_clk
+#515300
+b1 ps2_clk
+#515700
+b0 ps2_clk
+#516100
+b1 ps2_clk
+#516500
+b0 ps2_clk
+#516900
+b1 ps2_clk
+b1 ps2_data
+#517300
+b0 ps2_clk
+#517700
+b1 ps2_clk
+#518100
+b0 ps2_clk
+#518500
+b1 ps2_clk
+#518900
+b0 ps2_clk
+#519300
+b1 ps2_clk
+#519700
+b0 ps2_clk
+#520100
+b1 ps2_clk
+#520500
+b0 ps2_clk
+#520900
+b1 ps2_clk
+#521300
+b0 ps2_clk
+#521700
+b1 ps2_clk
+#523300
+b0 ps2_data
+#523700
+b0 ps2_clk
+#524100
+b1 ps2_clk
+#524500
+b0 ps2_clk
+#524900
+b1 ps2_clk
+b1 ps2_data
+#525300
+b0 ps2_clk
+#525700
+b1 ps2_clk
+b0 ps2_data
+#526100
+b0 ps2_clk
+#526500
+b1 ps2_clk
+#526900
+b0 ps2_clk
+#527300
+b1 ps2_clk
+b1 ps2_data
+#527700
+b0 ps2_clk
+#528100
+b1 ps2_clk
+b0 ps2_data
+#528500
+b0 ps2_clk
+#528900
+b1 ps2_clk
+#529300
+b0 ps2_clk
+#529700
+b1 ps2_clk
+#530100
+b0 ps2_clk
+#530500
+b1 ps2_clk
+b1 ps2_data
+#530900
+b0 ps2_clk
+#531300
+b1 ps2_clk
+#531700
+b0 ps2_clk
+#531705
+b0 ledr[2]
+b1 seg2[1]
+b0 seg2[4]
+b0 seg2[5]
+b0 seg2[6]
+b1 seg3[2]
+b1 seg3[3]
+b1 seg3[4]
+b1 seg3[7]
+#532100
+b1 ps2_clk
+#533700
+b0 ps2_data
+#534100
+b0 ps2_clk
+#534500
+b1 ps2_clk
+b1 ps2_data
+#534900
+b0 ps2_clk
+#535300
+b1 ps2_clk
+#535700
+b0 ps2_clk
+#536100
+b1 ps2_clk
+b0 ps2_data
+#536500
+b0 ps2_clk
+#536900
+b1 ps2_clk
+#537300
+b0 ps2_clk
+#537700
+b1 ps2_clk
+b1 ps2_data
+#538100
+b0 ps2_clk
+#538500
+b1 ps2_clk
+#538900
+b0 ps2_clk
+#539300
+b1 ps2_clk
+b0 ps2_data
+#539700
+b0 ps2_clk
+#540100
+b1 ps2_clk
+#540500
+b0 ps2_clk
+#540900
+b1 ps2_clk
+b1 ps2_data
+#541300
+b0 ps2_clk
+#541700
+b1 ps2_clk
+#542100
+b0 ps2_clk
+#542105
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#542106
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#542500
+b1 ps2_clk
+#544100
+b0 ps2_data
+#544500
+b0 ps2_clk
+#544900
+b1 ps2_clk
+#545300
+b0 ps2_clk
+#545700
+b1 ps2_clk
+#546100
+b0 ps2_clk
+#546500
+b1 ps2_clk
+#546900
+b0 ps2_clk
+#547300
+b1 ps2_clk
+#547700
+b0 ps2_clk
+#548100
+b1 ps2_clk
+b1 ps2_data
+#548500
+b0 ps2_clk
+#548900
+b1 ps2_clk
+#549300
+b0 ps2_clk
+#549700
+b1 ps2_clk
+#550100
+b0 ps2_clk
+#550500
+b1 ps2_clk
+#550900
+b0 ps2_clk
+#551300
+b1 ps2_clk
+#551700
+b0 ps2_clk
+#552100
+b1 ps2_clk
+#552500
+b0 ps2_clk
+#552505
+b1 seg0[1]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#552900
+b1 ps2_clk
+#554500
+b0 ps2_data
+#554900
+b0 ps2_clk
+#555300
+b1 ps2_clk
+b1 ps2_data
+#555700
+b0 ps2_clk
+#556100
+b1 ps2_clk
+#556500
+b0 ps2_clk
+#556900
+b1 ps2_clk
+b0 ps2_data
+#557300
+b0 ps2_clk
+#557700
+b1 ps2_clk
+#558100
+b0 ps2_clk
+#558500
+b1 ps2_clk
+b1 ps2_data
+#558900
+b0 ps2_clk
+#559300
+b1 ps2_clk
+#559700
+b0 ps2_clk
+#560100
+b1 ps2_clk
+b0 ps2_data
+#560500
+b0 ps2_clk
+#560900
+b1 ps2_clk
+#561300
+b0 ps2_clk
+#561700
+b1 ps2_clk
+b1 ps2_data
+#562100
+b0 ps2_clk
+#562500
+b1 ps2_clk
+#562900
+b0 ps2_clk
+#562905
+b1 seg2[2]
+b1 seg2[3]
+b1 seg2[4]
+b1 seg2[7]
+#563300
+b1 ps2_clk
+#564900
+b0 ps2_data
+#565300
+b0 ps2_clk
+#565700
+b1 ps2_clk
+#566100
+b0 ps2_clk
+#566500
+b1 ps2_clk
+#566900
+b0 ps2_clk
+#567300
+b1 ps2_clk
+b1 ps2_data
+#567700
+b0 ps2_clk
+#568100
+b1 ps2_clk
+#568500
+b0 ps2_clk
+#568900
+b1 ps2_clk
+#569300
+b0 ps2_clk
+#569700
+b1 ps2_clk
+b0 ps2_data
+#570100
+b0 ps2_clk
+#570500
+b1 ps2_clk
+#570900
+b0 ps2_clk
+#571300
+b1 ps2_clk
+#571700
+b0 ps2_clk
+#572100
+b1 ps2_clk
+#572500
+b0 ps2_clk
+#572900
+b1 ps2_clk
+b1 ps2_data
+#573300
+b0 ps2_clk
+#573305
+b1 lcd_db[0]
+b1 lcd_db[6]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[7]
+b0 seg1[5]
+b0 seg1[6]
+b0 lcd_en
+#573306
+b0 lcd_db[0]
+b0 lcd_db[6]
+b1 lcd_en
+#573700
+b1 ps2_clk
+#575300
+b0 ps2_data
+#575700
+b0 ps2_clk
+#576100
+b1 ps2_clk
+#576500
+b0 ps2_clk
+#576900
+b1 ps2_clk
+#577300
+b0 ps2_clk
+#577700
+b1 ps2_clk
+#578100
+b0 ps2_clk
+#578500
+b1 ps2_clk
+#578900
+b0 ps2_clk
+#579300
+b1 ps2_clk
+b1 ps2_data
+#579700
+b0 ps2_clk
+#580100
+b1 ps2_clk
+#580500
+b0 ps2_clk
+#580900
+b1 ps2_clk
+#581300
+b0 ps2_clk
+#581700
+b1 ps2_clk
+#582100
+b0 ps2_clk
+#582500
+b1 ps2_clk
+#582900
+b0 ps2_clk
+#583300
+b1 ps2_clk
+#583700
+b0 ps2_clk
+#583705
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[7]
+b1 seg1[5]
+b1 seg1[6]
+#584100
+b1 ps2_clk
+#585700
+b0 ps2_data
+#586100
+b0 ps2_clk
+#586500
+b1 ps2_clk
+#586900
+b0 ps2_clk
+#587300
+b1 ps2_clk
+#587700
+b0 ps2_clk
+#588100
+b1 ps2_clk
+b1 ps2_data
+#588500
+b0 ps2_clk
+#588900
+b1 ps2_clk
+#589300
+b0 ps2_clk
+#589700
+b1 ps2_clk
+#590100
+b0 ps2_clk
+#590500
+b1 ps2_clk
+b0 ps2_data
+#590900
+b0 ps2_clk
+#591300
+b1 ps2_clk
+#591700
+b0 ps2_clk
+#592100
+b1 ps2_clk
+#592500
+b0 ps2_clk
+#592900
+b1 ps2_clk
+#593300
+b0 ps2_clk
+#593700
+b1 ps2_clk
+b1 ps2_data
+#594100
+b0 ps2_clk
+#594105
+b0 seg2[1]
+b0 seg2[3]
+b0 seg2[4]
+b1 seg2[5]
+b0 seg2[7]
+#594500
+b1 ps2_clk
+#596100
+b0 ps2_data
+#596500
+b0 ps2_clk
+#596900
+b1 ps2_clk
+b1 ps2_data
+#597300
+b0 ps2_clk
+#597700
+b1 ps2_clk
+b0 ps2_data
+#598100
+b0 ps2_clk
+#598500
+b1 ps2_clk
+#598900
+b0 ps2_clk
+#599300
+b1 ps2_clk
+#599700
+b0 ps2_clk
+#600100
+b1 ps2_clk
+b1 ps2_data
+#600500
+b0 ps2_clk
+#600900
+b1 ps2_clk
+#601300
+b0 ps2_clk
+#601700
+b1 ps2_clk
+b0 ps2_data
+#602100
+b0 ps2_clk
+#602500
+b1 ps2_clk
+#602900
+b0 ps2_clk
+#603300
+b1 ps2_clk
+#603700
+b0 ps2_clk
+#604100
+b1 ps2_clk
+b1 ps2_data
+#604500
+b0 ps2_clk
+#604505
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#604506
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#604900
+b1 ps2_clk
+#606500
+b0 ps2_data
+#606900
+b0 ps2_clk
+#607300
+b1 ps2_clk
+#607700
+b0 ps2_clk
+#608100
+b1 ps2_clk
+#608500
+b0 ps2_clk
+#608900
+b1 ps2_clk
+#609300
+b0 ps2_clk
+#609700
+b1 ps2_clk
+#610100
+b0 ps2_clk
+#610500
+b1 ps2_clk
+b1 ps2_data
+#610900
+b0 ps2_clk
+#611300
+b1 ps2_clk
+#611700
+b0 ps2_clk
+#612100
+b1 ps2_clk
+#612500
+b0 ps2_clk
+#612900
+b1 ps2_clk
+#613300
+b0 ps2_clk
+#613700
+b1 ps2_clk
+#614100
+b0 ps2_clk
+#614500
+b1 ps2_clk
+#614900
+b0 ps2_clk
+#614905
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#615300
+b1 ps2_clk
+#616900
+b0 ps2_data
+#617300
+b0 ps2_clk
+#617700
+b1 ps2_clk
+b1 ps2_data
+#618100
+b0 ps2_clk
+#618500
+b1 ps2_clk
+b0 ps2_data
+#618900
+b0 ps2_clk
+#619300
+b1 ps2_clk
+#619700
+b0 ps2_clk
+#620100
+b1 ps2_clk
+#620500
+b0 ps2_clk
+#620900
+b1 ps2_clk
+b1 ps2_data
+#621300
+b0 ps2_clk
+#621700
+b1 ps2_clk
+#622100
+b0 ps2_clk
+#622500
+b1 ps2_clk
+b0 ps2_data
+#622900
+b0 ps2_clk
+#623300
+b1 ps2_clk
+#623700
+b0 ps2_clk
+#624100
+b1 ps2_clk
+#624500
+b0 ps2_clk
+#624900
+b1 ps2_clk
+b1 ps2_data
+#625300
+b0 ps2_clk
+#625305
+b1 seg2[3]
+b0 seg2[5]
+#625700
+b1 ps2_clk
+#627300
+b0 ps2_data
+#627700
+b0 ps2_clk
+#628100
+b1 ps2_clk
+#628500
+b0 ps2_clk
+#628900
+b1 ps2_clk
+#629300
+b0 ps2_clk
+#629700
+b1 ps2_clk
+b1 ps2_data
+#630100
+b0 ps2_clk
+#630500
+b1 ps2_clk
+b0 ps2_data
+#630900
+b0 ps2_clk
+#631300
+b1 ps2_clk
+b1 ps2_data
+#631700
+b0 ps2_clk
+#632100
+b1 ps2_clk
+#632500
+b0 ps2_clk
+#632900
+b1 ps2_clk
+b0 ps2_data
+#633300
+b0 ps2_clk
+#633700
+b1 ps2_clk
+#634100
+b0 ps2_clk
+#634500
+b1 ps2_clk
+#634900
+b0 ps2_clk
+#635300
+b1 ps2_clk
+b1 ps2_data
+#635700
+b0 ps2_clk
+#635705
+b1 lcd_db[0]
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#635706
+b0 lcd_db[0]
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[6]
+b1 lcd_en
+#636100
+b1 ps2_clk
+#637700
+b0 ps2_data
+#638100
+b0 ps2_clk
+#638500
+b1 ps2_clk
+#638900
+b0 ps2_clk
+#639300
+b1 ps2_clk
+#639700
+b0 ps2_clk
+#640100
+b1 ps2_clk
+#640500
+b0 ps2_clk
+#640900
+b1 ps2_clk
+#641300
+b0 ps2_clk
+#641700
+b1 ps2_clk
+b1 ps2_data
+#642100
+b0 ps2_clk
+#642500
+b1 ps2_clk
+#642900
+b0 ps2_clk
+#643300
+b1 ps2_clk
+#643700
+b0 ps2_clk
+#644100
+b1 ps2_clk
+#644500
+b0 ps2_clk
+#644900
+b1 ps2_clk
+#645300
+b0 ps2_clk
+#645700
+b1 ps2_clk
+#646100
+b0 ps2_clk
+#646105
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#646500
+b1 ps2_clk
+#648100
+b0 ps2_data
+#648500
+b0 ps2_clk
+#648900
+b1 ps2_clk
+#649300
+b0 ps2_clk
+#649700
+b1 ps2_clk
+#650100
+b0 ps2_clk
+#650500
+b1 ps2_clk
+b1 ps2_data
+#650900
+b0 ps2_clk
+#651300
+b1 ps2_clk
+b0 ps2_data
+#651700
+b0 ps2_clk
+#652100
+b1 ps2_clk
+b1 ps2_data
+#652500
+b0 ps2_clk
+#652900
+b1 ps2_clk
+#653300
+b0 ps2_clk
+#653700
+b1 ps2_clk
+b0 ps2_data
+#654100
+b0 ps2_clk
+#654500
+b1 ps2_clk
+#654900
+b0 ps2_clk
+#655300
+b1 ps2_clk
+#655700
+b0 ps2_clk
+#656100
+b1 ps2_clk
+b1 ps2_data
+#656500
+b0 ps2_clk
+#656505
+b0 seg2[2]
+b1 seg2[4]
+b1 seg2[7]
+#656900
+b1 ps2_clk
+#658500
+b0 ps2_data
+#658900
+b0 ps2_clk
+#659300
+b1 ps2_clk
+b1 ps2_data
+#659700
+b0 ps2_clk
+#660100
+b1 ps2_clk
+b0 ps2_data
+#660500
+b0 ps2_clk
+#660900
+b1 ps2_clk
+#661300
+b0 ps2_clk
+#661700
+b1 ps2_clk
+b1 ps2_data
+#662100
+b0 ps2_clk
+#662500
+b1 ps2_clk
+b0 ps2_data
+#662900
+b0 ps2_clk
+#663300
+b1 ps2_clk
+b1 ps2_data
+#663700
+b0 ps2_clk
+#664100
+b1 ps2_clk
+b0 ps2_data
+#664500
+b0 ps2_clk
+#664900
+b1 ps2_clk
+#665300
+b0 ps2_clk
+#665700
+b1 ps2_clk
+#666100
+b0 ps2_clk
+#666500
+b1 ps2_clk
+b1 ps2_data
+#666900
+b0 ps2_clk
+#666905
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#666906
+b1 lcd_en
+#667300
+b1 ps2_clk
+#668900
+b0 ps2_data
+#669300
+b0 ps2_clk
+#669700
+b1 ps2_clk
+#670100
+b0 ps2_clk
+#670500
+b1 ps2_clk
+#670900
+b0 ps2_clk
+#671300
+b1 ps2_clk
+#671700
+b0 ps2_clk
+#672100
+b1 ps2_clk
+#672500
+b0 ps2_clk
+#672900
+b1 ps2_clk
+b1 ps2_data
+#673300
+b0 ps2_clk
+#673700
+b1 ps2_clk
+#674100
+b0 ps2_clk
+#674500
+b1 ps2_clk
+#674900
+b0 ps2_clk
+#675300
+b1 ps2_clk
+#675700
+b0 ps2_clk
+#676100
+b1 ps2_clk
+#676500
+b0 ps2_clk
+#676900
+b1 ps2_clk
+#677300
+b0 ps2_clk
+#677305
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#677700
+b1 ps2_clk
+#679300
+b0 ps2_data
+#679700
+b0 ps2_clk
+#680100
+b1 ps2_clk
+b1 ps2_data
+#680500
+b0 ps2_clk
+#680900
+b1 ps2_clk
+b0 ps2_data
+#681300
+b0 ps2_clk
+#681700
+b1 ps2_clk
+#682100
+b0 ps2_clk
+#682500
+b1 ps2_clk
+b1 ps2_data
+#682900
+b0 ps2_clk
+#683300
+b1 ps2_clk
+b0 ps2_data
+#683700
+b0 ps2_clk
+#684100
+b1 ps2_clk
+b1 ps2_data
+#684500
+b0 ps2_clk
+#684900
+b1 ps2_clk
+b0 ps2_data
+#685300
+b0 ps2_clk
+#685700
+b1 ps2_clk
+#686100
+b0 ps2_clk
+#686500
+b1 ps2_clk
+#686900
+b0 ps2_clk
+#687300
+b1 ps2_clk
+b1 ps2_data
+#687700
+b0 ps2_clk
+#687705
+b0 seg2[4]
+b1 seg2[6]
+b0 seg2[7]
+#688100
+b1 ps2_clk
+#689700
+b0 ps2_data
+#690100
+b0 ps2_clk
+#690500
+b1 ps2_clk
+b1 ps2_data
+#690900
+b0 ps2_clk
+#691300
+b1 ps2_clk
+#691700
+b0 ps2_clk
+#692100
+b1 ps2_clk
+b0 ps2_data
+#692500
+b0 ps2_clk
+#692900
+b1 ps2_clk
+b1 ps2_data
+#693300
+b0 ps2_clk
+#693700
+b1 ps2_clk
+b0 ps2_data
+#694100
+b0 ps2_clk
+#694500
+b1 ps2_clk
+b1 ps2_data
+#694900
+b0 ps2_clk
+#695300
+b1 ps2_clk
+b0 ps2_data
+#695700
+b0 ps2_clk
+#696100
+b1 ps2_clk
+#696500
+b0 ps2_clk
+#696900
+b1 ps2_clk
+b1 ps2_data
+#697300
+b0 ps2_clk
+#697700
+b1 ps2_clk
+#698100
+b0 ps2_clk
+#698105
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#698106
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[6]
+b1 lcd_en
+#698500
+b1 ps2_clk
+#700100
+b0 ps2_data
+#700500
+b0 ps2_clk
+#700900
+b1 ps2_clk
+#701300
+b0 ps2_clk
+#701700
+b1 ps2_clk
+#702100
+b0 ps2_clk
+#702500
+b1 ps2_clk
+#702900
+b0 ps2_clk
+#703300
+b1 ps2_clk
+#703700
+b0 ps2_clk
+#704100
+b1 ps2_clk
+b1 ps2_data
+#704500
+b0 ps2_clk
+#704900
+b1 ps2_clk
+#705300
+b0 ps2_clk
+#705700
+b1 ps2_clk
+#706100
+b0 ps2_clk
+#706500
+b1 ps2_clk
+#706900
+b0 ps2_clk
+#707300
+b1 ps2_clk
+#707700
+b0 ps2_clk
+#708100
+b1 ps2_clk
+#708500
+b0 ps2_clk
+#708505
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#708900
+b1 ps2_clk
+#710500
+b0 ps2_data
+#710900
+b0 ps2_clk
+#711300
+b1 ps2_clk
+b1 ps2_data
+#711700
+b0 ps2_clk
+#712100
+b1 ps2_clk
+#712500
+b0 ps2_clk
+#712900
+b1 ps2_clk
+b0 ps2_data
+#713300
+b0 ps2_clk
+#713700
+b1 ps2_clk
+b1 ps2_data
+#714100
+b0 ps2_clk
+#714500
+b1 ps2_clk
+b0 ps2_data
+#714900
+b0 ps2_clk
+#715300
+b1 ps2_clk
+b1 ps2_data
+#715700
+b0 ps2_clk
+#716100
+b1 ps2_clk
+b0 ps2_data
+#716500
+b0 ps2_clk
+#716900
+b1 ps2_clk
+#717300
+b0 ps2_clk
+#717700
+b1 ps2_clk
+b1 ps2_data
+#718100
+b0 ps2_clk
+#718500
+b1 ps2_clk
+#718900
+b0 ps2_clk
+#718905
+b0 seg2[3]
+#719300
+b1 ps2_clk
+#720900
+b0 ps2_data
+#721300
+b0 ps2_clk
+#721700
+b1 ps2_clk
+b1 ps2_data
+#722100
+b0 ps2_clk
+#722500
+b1 ps2_clk
+b0 ps2_data
+#722900
+b0 ps2_clk
+#723300
+b1 ps2_clk
+b1 ps2_data
+#723700
+b0 ps2_clk
+#724100
+b1 ps2_clk
+#724500
+b0 ps2_clk
+#724900
+b1 ps2_clk
+b0 ps2_data
+#725300
+b0 ps2_clk
+#725700
+b1 ps2_clk
+b1 ps2_data
+#726100
+b0 ps2_clk
+#726500
+b1 ps2_clk
+b0 ps2_data
+#726900
+b0 ps2_clk
+#727300
+b1 ps2_clk
+#727700
+b0 ps2_clk
+#728100
+b1 ps2_clk
+b1 ps2_data
+#728500
+b0 ps2_clk
+#728900
+b1 ps2_clk
+#729300
+b0 ps2_clk
+#729305
+b1 lcd_db[1]
+b1 lcd_db[4]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#729306
+b0 lcd_db[1]
+b0 lcd_db[4]
+b0 lcd_db[6]
+b1 lcd_en
+#729700
+b1 ps2_clk
+#731300
+b0 ps2_data
+#731700
+b0 ps2_clk
+#732100
+b1 ps2_clk
+#732500
+b0 ps2_clk
+#732900
+b1 ps2_clk
+#733300
+b0 ps2_clk
+#733700
+b1 ps2_clk
+#734100
+b0 ps2_clk
+#734500
+b1 ps2_clk
+#734900
+b0 ps2_clk
+#735300
+b1 ps2_clk
+b1 ps2_data
+#735700
+b0 ps2_clk
+#736100
+b1 ps2_clk
+#736500
+b0 ps2_clk
+#736900
+b1 ps2_clk
+#737300
+b0 ps2_clk
+#737700
+b1 ps2_clk
+#738100
+b0 ps2_clk
+#738500
+b1 ps2_clk
+#738900
+b0 ps2_clk
+#739300
+b1 ps2_clk
+#739700
+b0 ps2_clk
+#739705
+b1 seg0[1]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#740100
+b1 ps2_clk
+#741700
+b0 ps2_data
+#742100
+b0 ps2_clk
+#742500
+b1 ps2_clk
+b1 ps2_data
+#742900
+b0 ps2_clk
+#743300
+b1 ps2_clk
+b0 ps2_data
+#743700
+b0 ps2_clk
+#744100
+b1 ps2_clk
+b1 ps2_data
+#744500
+b0 ps2_clk
+#744900
+b1 ps2_clk
+#745300
+b0 ps2_clk
+#745700
+b1 ps2_clk
+b0 ps2_data
+#746100
+b0 ps2_clk
+#746500
+b1 ps2_clk
+b1 ps2_data
+#746900
+b0 ps2_clk
+#747300
+b1 ps2_clk
+b0 ps2_data
+#747700
+b0 ps2_clk
+#748100
+b1 ps2_clk
+#748500
+b0 ps2_clk
+#748900
+b1 ps2_clk
+b1 ps2_data
+#749300
+b0 ps2_clk
+#749700
+b1 ps2_clk
+#750100
+b0 ps2_clk
+#750105
+b1 seg2[1]
+b1 seg2[2]
+b1 seg2[3]
+b1 seg2[4]
+b0 seg2[6]
+#750500
+b1 ps2_clk
+#752100
+b0 ps2_data
+#752500
+b0 ps2_clk
+#752900
+b1 ps2_clk
+#753300
+b0 ps2_clk
+#753700
+b1 ps2_clk
+#754100
+b0 ps2_clk
+#754500
+b1 ps2_clk
+b1 ps2_data
+#754900
+b0 ps2_clk
+#755300
+b1 ps2_clk
+b0 ps2_data
+#755700
+b0 ps2_clk
+#756100
+b1 ps2_clk
+#756500
+b0 ps2_clk
+#756900
+b1 ps2_clk
+#757300
+b0 ps2_clk
+#757700
+b1 ps2_clk
+b1 ps2_data
+#758100
+b0 ps2_clk
+#758500
+b1 ps2_clk
+b0 ps2_data
+#758900
+b0 ps2_clk
+#759300
+b1 ps2_clk
+b1 ps2_data
+#759700
+b0 ps2_clk
+#760100
+b1 ps2_clk
+#760500
+b0 ps2_clk
+#760505
+b1 lcd_db[0]
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[5]
+b0 seg1[6]
+b0 lcd_en
+#760506
+b0 lcd_db[0]
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#760900
+b1 ps2_clk
+#762500
+b0 ps2_data
+#762900
+b0 ps2_clk
+#763300
+b1 ps2_clk
+#763700
+b0 ps2_clk
+#764100
+b1 ps2_clk
+#764500
+b0 ps2_clk
+#764900
+b1 ps2_clk
+#765300
+b0 ps2_clk
+#765700
+b1 ps2_clk
+#766100
+b0 ps2_clk
+#766500
+b1 ps2_clk
+b1 ps2_data
+#766900
+b0 ps2_clk
+#767300
+b1 ps2_clk
+#767700
+b0 ps2_clk
+#768100
+b1 ps2_clk
+#768500
+b0 ps2_clk
+#768900
+b1 ps2_clk
+#769300
+b0 ps2_clk
+#769700
+b1 ps2_clk
+#770100
+b0 ps2_clk
+#770500
+b1 ps2_clk
+#770900
+b0 ps2_clk
+#770905
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[5]
+b1 seg1[6]
+#771300
+b1 ps2_clk
+#772900
+b0 ps2_data
+#773300
+b0 ps2_clk
+#773700
+b1 ps2_clk
+#774100
+b0 ps2_clk
+#774500
+b1 ps2_clk
+#774900
+b0 ps2_clk
+#775300
+b1 ps2_clk
+b1 ps2_data
+#775700
+b0 ps2_clk
+#776100
+b1 ps2_clk
+b0 ps2_data
+#776500
+b0 ps2_clk
+#776900
+b1 ps2_clk
+#777300
+b0 ps2_clk
+#777700
+b1 ps2_clk
+#778100
+b0 ps2_clk
+#778500
+b1 ps2_clk
+b1 ps2_data
+#778900
+b0 ps2_clk
+#779300
+b1 ps2_clk
+b0 ps2_data
+#779700
+b0 ps2_clk
+#780100
+b1 ps2_clk
+b1 ps2_data
+#780500
+b0 ps2_clk
+#780900
+b1 ps2_clk
+#781300
+b0 ps2_clk
+#781305
+b0 seg2[1]
+b0 seg2[2]
+b0 seg2[3]
+b0 seg2[4]
+#781700
+b1 ps2_clk
+#783300
+b0 ps2_data
+#783700
+b0 ps2_clk
+#784100
+b1 ps2_clk
+#784500
+b0 ps2_clk
+#784900
+b1 ps2_clk
+b1 ps2_data
+#785300
+b0 ps2_clk
+#785700
+b1 ps2_clk
+b0 ps2_data
+#786100
+b0 ps2_clk
+#786500
+b1 ps2_clk
+b1 ps2_data
+#786900
+b0 ps2_clk
+#787300
+b1 ps2_clk
+#787700
+b0 ps2_clk
+#788100
+b1 ps2_clk
+#788500
+b0 ps2_clk
+#788900
+b1 ps2_clk
+b0 ps2_data
+#789300
+b0 ps2_clk
+#789700
+b1 ps2_clk
+#790100
+b0 ps2_clk
+#790500
+b1 ps2_clk
+b1 ps2_data
+#790900
+b0 ps2_clk
+#791300
+b1 ps2_clk
+#791700
+b0 ps2_clk
+#791705
+b1 lcd_db[0]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[6]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#791706
+b0 lcd_db[0]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[6]
+b1 lcd_en
+#792100
+b1 ps2_clk
+#793700
+b0 ps2_data
+#794100
+b0 ps2_clk
+#794500
+b1 ps2_clk
+#794900
+b0 ps2_clk
+#795300
+b1 ps2_clk
+#795700
+b0 ps2_clk
+#796100
+b1 ps2_clk
+#796500
+b0 ps2_clk
+#796900
+b1 ps2_clk
+#797300
+b0 ps2_clk
+#797700
+b1 ps2_clk
+b1 ps2_data
+#798100
+b0 ps2_clk
+#798500
+b1 ps2_clk
+#798900
+b0 ps2_clk
+#799300
+b1 ps2_clk
+#799700
+b0 ps2_clk
+#800100
+b1 ps2_clk
+#800500
+b0 ps2_clk
+#800900
+b1 ps2_clk
+#801300
+b0 ps2_clk
+#801700
+b1 ps2_clk
+#802100
+b0 ps2_clk
+#802105
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#802500
+b1 ps2_clk
+#804100
+b0 ps2_data
+#804500
+b0 ps2_clk
+#804900
+b1 ps2_clk
+#805300
+b0 ps2_clk
+#805700
+b1 ps2_clk
+b1 ps2_data
+#806100
+b0 ps2_clk
+#806500
+b1 ps2_clk
+b0 ps2_data
+#806900
+b0 ps2_clk
+#807300
+b1 ps2_clk
+b1 ps2_data
+#807700
+b0 ps2_clk
+#808100
+b1 ps2_clk
+#808500
+b0 ps2_clk
+#808900
+b1 ps2_clk
+#809300
+b0 ps2_clk
+#809700
+b1 ps2_clk
+b0 ps2_data
+#810100
+b0 ps2_clk
+#810500
+b1 ps2_clk
+#810900
+b0 ps2_clk
+#811300
+b1 ps2_clk
+b1 ps2_data
+#811700
+b0 ps2_clk
+#812100
+b1 ps2_clk
+#812500
+b0 ps2_clk
+#812505
+b1 seg2[3]
+#812900
+b1 ps2_clk
+#814500
+b0 ps2_data
+#814900
+b0 ps2_clk
+#815300
+b1 ps2_clk
+b1 ps2_data
+#815700
+b0 ps2_clk
+#816100
+b1 ps2_clk
+b0 ps2_data
+#816500
+b0 ps2_clk
+#816900
+b1 ps2_clk
+#817300
+b0 ps2_clk
+#817700
+b1 ps2_clk
+b1 ps2_data
+#818100
+b0 ps2_clk
+#818500
+b1 ps2_clk
+b0 ps2_data
+#818900
+b0 ps2_clk
+#819300
+b1 ps2_clk
+b1 ps2_data
+#819700
+b0 ps2_clk
+#820100
+b1 ps2_clk
+b0 ps2_data
+#820500
+b0 ps2_clk
+#820900
+b1 ps2_clk
+#821300
+b0 ps2_clk
+#821700
+b1 ps2_clk
+#822100
+b0 ps2_clk
+#822500
+b1 ps2_clk
+b1 ps2_data
+#822900
+b0 ps2_clk
+#822905
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#822906
+b1 lcd_en
+#823300
+b1 ps2_clk
+#824900
+b0 ps2_data
+#825300
+b0 ps2_clk
+#825700
+b1 ps2_clk
+#826100
+b0 ps2_clk
+#826500
+b1 ps2_clk
+#826900
+b0 ps2_clk
+#827300
+b1 ps2_clk
+#827700
+b0 ps2_clk
+#828100
+b1 ps2_clk
+#828500
+b0 ps2_clk
+#828900
+b1 ps2_clk
+b1 ps2_data
+#829300
+b0 ps2_clk
+#829700
+b1 ps2_clk
+#830100
+b0 ps2_clk
+#830500
+b1 ps2_clk
+#830900
+b0 ps2_clk
+#831300
+b1 ps2_clk
+#831700
+b0 ps2_clk
+#832100
+b1 ps2_clk
+#832500
+b0 ps2_clk
+#832900
+b1 ps2_clk
+#833300
+b0 ps2_clk
+#833305
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#833700
+b1 ps2_clk
+#835300
+b0 ps2_data
+#835700
+b0 ps2_clk
+#836100
+b1 ps2_clk
+b1 ps2_data
+#836500
+b0 ps2_clk
+#836900
+b1 ps2_clk
+b0 ps2_data
+#837300
+b0 ps2_clk
+#837700
+b1 ps2_clk
+#838100
+b0 ps2_clk
+#838500
+b1 ps2_clk
+b1 ps2_data
+#838900
+b0 ps2_clk
+#839300
+b1 ps2_clk
+b0 ps2_data
+#839700
+b0 ps2_clk
+#840100
+b1 ps2_clk
+b1 ps2_data
+#840500
+b0 ps2_clk
+#840900
+b1 ps2_clk
+b0 ps2_data
+#841300
+b0 ps2_clk
+#841700
+b1 ps2_clk
+#842100
+b0 ps2_clk
+#842500
+b1 ps2_clk
+#842900
+b0 ps2_clk
+#843300
+b1 ps2_clk
+b1 ps2_data
+#843700
+b0 ps2_clk
+#843705
+b0 seg2[3]
+b1 seg2[4]
+#844100
+b1 ps2_clk
+#845700
+b0 ps2_data
+#846100
+b0 ps2_clk
+#846500
+b1 ps2_clk
+#846900
+b0 ps2_clk
+#847300
+b1 ps2_clk
+#847700
+b0 ps2_clk
+#848100
+b1 ps2_clk
+#848500
+b0 ps2_clk
+#848900
+b1 ps2_clk
+b1 ps2_data
+#849300
+b0 ps2_clk
+#849700
+b1 ps2_clk
+#850100
+b0 ps2_clk
+#850500
+b1 ps2_clk
+b0 ps2_data
+#850900
+b0 ps2_clk
+#851300
+b1 ps2_clk
+b1 ps2_data
+#851700
+b0 ps2_clk
+#852100
+b1 ps2_clk
+b0 ps2_data
+#852500
+b0 ps2_clk
+#852900
+b1 ps2_clk
+#853300
+b0 ps2_clk
+#853700
+b1 ps2_clk
+b1 ps2_data
+#854100
+b0 ps2_clk
+#854105
+b1 ledr[3]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[7]
+#854500
+b1 ps2_clk
+#856100
+b0 ps2_data
+#856500
+b0 ps2_clk
+#856900
+b1 ps2_clk
+#857300
+b0 ps2_clk
+#857700
+b1 ps2_clk
+#858100
+b0 ps2_clk
+#858500
+b1 ps2_clk
+#858900
+b0 ps2_clk
+#859300
+b1 ps2_clk
+#859700
+b0 ps2_clk
+#860100
+b1 ps2_clk
+b1 ps2_data
+#860500
+b0 ps2_clk
+#860900
+b1 ps2_clk
+#861300
+b0 ps2_clk
+#861700
+b1 ps2_clk
+#862100
+b0 ps2_clk
+#862500
+b1 ps2_clk
+#862900
+b0 ps2_clk
+#863300
+b1 ps2_clk
+#863700
+b0 ps2_clk
+#864100
+b1 ps2_clk
+#864500
+b0 ps2_clk
+#864505
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[7]
+#864900
+b1 ps2_clk
+#866500
+b0 ps2_data
+#866900
+b0 ps2_clk
+#867300
+b1 ps2_clk
+#867700
+b0 ps2_clk
+#868100
+b1 ps2_clk
+#868500
+b0 ps2_clk
+#868900
+b1 ps2_clk
+#869300
+b0 ps2_clk
+#869700
+b1 ps2_clk
+b1 ps2_data
+#870100
+b0 ps2_clk
+#870500
+b1 ps2_clk
+#870900
+b0 ps2_clk
+#871300
+b1 ps2_clk
+b0 ps2_data
+#871700
+b0 ps2_clk
+#872100
+b1 ps2_clk
+b1 ps2_data
+#872500
+b0 ps2_clk
+#872900
+b1 ps2_clk
+b0 ps2_data
+#873300
+b0 ps2_clk
+#873700
+b1 ps2_clk
+#874100
+b0 ps2_clk
+#874500
+b1 ps2_clk
+b1 ps2_data
+#874900
+b0 ps2_clk
+#874905
+b0 seg2[4]
+b1 seg2[6]
+b1 seg2[7]
+#875300
+b1 ps2_clk
+#876900
+b0 ps2_data
+#877300
+b0 ps2_clk
+#877700
+b1 ps2_clk
+b1 ps2_data
+#878100
+b0 ps2_clk
+#878500
+b1 ps2_clk
+#878900
+b0 ps2_clk
+#879300
+b1 ps2_clk
+b0 ps2_data
+#879700
+b0 ps2_clk
+#880100
+b1 ps2_clk
+b1 ps2_data
+#880500
+b0 ps2_clk
+#880900
+b1 ps2_clk
+b0 ps2_data
+#881300
+b0 ps2_clk
+#881700
+b1 ps2_clk
+b1 ps2_data
+#882100
+b0 ps2_clk
+#882500
+b1 ps2_clk
+b0 ps2_data
+#882900
+b0 ps2_clk
+#883300
+b1 ps2_clk
+#883700
+b0 ps2_clk
+#884100
+b1 ps2_clk
+b1 ps2_data
+#884500
+b0 ps2_clk
+#884900
+b1 ps2_clk
+#885300
+b0 ps2_clk
+#885305
+b1 lcd_db[1]
+b1 lcd_db[2]
+b1 lcd_db[5]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#885306
+b0 lcd_db[1]
+b0 lcd_db[2]
+b0 lcd_db[5]
+b1 lcd_en
+#885700
+b1 ps2_clk
+#887300
+b0 ps2_data
+#887700
+b0 ps2_clk
+#888100
+b1 ps2_clk
+#888500
+b0 ps2_clk
+#888900
+b1 ps2_clk
+#889300
+b0 ps2_clk
+#889700
+b1 ps2_clk
+#890100
+b0 ps2_clk
+#890500
+b1 ps2_clk
+#890900
+b0 ps2_clk
+#891300
+b1 ps2_clk
+b1 ps2_data
+#891700
+b0 ps2_clk
+#892100
+b1 ps2_clk
+#892500
+b0 ps2_clk
+#892900
+b1 ps2_clk
+#893300
+b0 ps2_clk
+#893700
+b1 ps2_clk
+#894100
+b0 ps2_clk
+#894500
+b1 ps2_clk
+#894900
+b0 ps2_clk
+#895300
+b1 ps2_clk
+#895700
+b0 ps2_clk
+#895705
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#896100
+b1 ps2_clk
+#897700
+b0 ps2_data
+#898100
+b0 ps2_clk
+#898500
+b1 ps2_clk
+b1 ps2_data
+#898900
+b0 ps2_clk
+#899300
+b1 ps2_clk
+#899700
+b0 ps2_clk
+#900100
+b1 ps2_clk
+b0 ps2_data
+#900500
+b0 ps2_clk
+#900900
+b1 ps2_clk
+b1 ps2_data
+#901300
+b0 ps2_clk
+#901700
+b1 ps2_clk
+b0 ps2_data
+#902100
+b0 ps2_clk
+#902500
+b1 ps2_clk
+b1 ps2_data
+#902900
+b0 ps2_clk
+#903300
+b1 ps2_clk
+b0 ps2_data
+#903700
+b0 ps2_clk
+#904100
+b1 ps2_clk
+#904500
+b0 ps2_clk
+#904900
+b1 ps2_clk
+b1 ps2_data
+#905300
+b0 ps2_clk
+#905700
+b1 ps2_clk
+#906100
+b0 ps2_clk
+#906105
+b1 seg2[1]
+b1 seg2[5]
+b0 seg2[7]
+#906500
+b1 ps2_clk
+#908100
+b0 ps2_data
+#908500
+b0 ps2_clk
+#908900
+b1 ps2_clk
+b1 ps2_data
+#909300
+b0 ps2_clk
+#909700
+b1 ps2_clk
+#910100
+b0 ps2_clk
+#910500
+b1 ps2_clk
+b0 ps2_data
+#910900
+b0 ps2_clk
+#911300
+b1 ps2_clk
+#911700
+b0 ps2_clk
+#912100
+b1 ps2_clk
+#912500
+b0 ps2_clk
+#912900
+b1 ps2_clk
+b1 ps2_data
+#913300
+b0 ps2_clk
+#913700
+b1 ps2_clk
+b0 ps2_data
+#914100
+b0 ps2_clk
+#914500
+b1 ps2_clk
+#914900
+b0 ps2_clk
+#915300
+b1 ps2_clk
+#915700
+b0 ps2_clk
+#916100
+b1 ps2_clk
+b1 ps2_data
+#916500
+b0 ps2_clk
+#916505
+b1 lcd_db[2]
+b1 lcd_db[5]
+b0 seg0[1]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#916506
+b0 lcd_db[2]
+b0 lcd_db[5]
+b1 lcd_en
+#916900
+b1 ps2_clk
+#918500
+b0 ps2_data
+#918900
+b0 ps2_clk
+#919300
+b1 ps2_clk
+#919700
+b0 ps2_clk
+#920100
+b1 ps2_clk
+#920500
+b0 ps2_clk
+#920900
+b1 ps2_clk
+#921300
+b0 ps2_clk
+#921700
+b1 ps2_clk
+#922100
+b0 ps2_clk
+#922500
+b1 ps2_clk
+b1 ps2_data
+#922900
+b0 ps2_clk
+#923300
+b1 ps2_clk
+#923700
+b0 ps2_clk
+#924100
+b1 ps2_clk
+#924500
+b0 ps2_clk
+#924900
+b1 ps2_clk
+#925300
+b0 ps2_clk
+#925700
+b1 ps2_clk
+#926100
+b0 ps2_clk
+#926500
+b1 ps2_clk
+#926900
+b0 ps2_clk
+#926905
+b1 seg0[1]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#927300
+b1 ps2_clk
+#928900
+b0 ps2_data
+#929300
+b0 ps2_clk
+#929700
+b1 ps2_clk
+b1 ps2_data
+#930100
+b0 ps2_clk
+#930500
+b1 ps2_clk
+#930900
+b0 ps2_clk
+#931300
+b1 ps2_clk
+b0 ps2_data
+#931700
+b0 ps2_clk
+#932100
+b1 ps2_clk
+#932500
+b0 ps2_clk
+#932900
+b1 ps2_clk
+#933300
+b0 ps2_clk
+#933700
+b1 ps2_clk
+b1 ps2_data
+#934100
+b0 ps2_clk
+#934500
+b1 ps2_clk
+b0 ps2_data
+#934900
+b0 ps2_clk
+#935300
+b1 ps2_clk
+#935700
+b0 ps2_clk
+#936100
+b1 ps2_clk
+#936500
+b0 ps2_clk
+#936900
+b1 ps2_clk
+b1 ps2_data
+#937300
+b0 ps2_clk
+#937305
+b0 seg2[1]
+b1 seg2[2]
+b0 seg2[5]
+b0 seg2[6]
+b1 seg2[7]
+#937700
+b1 ps2_clk
+#939300
+b0 ps2_data
+#939700
+b0 ps2_clk
+#940100
+b1 ps2_clk
+#940500
+b0 ps2_clk
+#940900
+b1 ps2_clk
+#941300
+b0 ps2_clk
+#941700
+b1 ps2_clk
+b1 ps2_data
+#942100
+b0 ps2_clk
+#942500
+b1 ps2_clk
+#942900
+b0 ps2_clk
+#943300
+b1 ps2_clk
+#943700
+b0 ps2_clk
+#944100
+b1 ps2_clk
+#944500
+b0 ps2_clk
+#944900
+b1 ps2_clk
+b0 ps2_data
+#945300
+b0 ps2_clk
+#945700
+b1 ps2_clk
+#946100
+b0 ps2_clk
+#946500
+b1 ps2_clk
+b1 ps2_data
+#946900
+b0 ps2_clk
+#947300
+b1 ps2_clk
+#947700
+b0 ps2_clk
+#947705
+b1 lcd_db[0]
+b1 lcd_db[2]
+b1 lcd_db[4]
+b1 lcd_db[5]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#947706
+b0 lcd_db[0]
+b0 lcd_db[2]
+b0 lcd_db[4]
+b0 lcd_db[5]
+b1 lcd_en
+#948100
+b1 ps2_clk
+#949700
+b0 ps2_data
+#950100
+b0 ps2_clk
+#950500
+b1 ps2_clk
+#950900
+b0 ps2_clk
+#951300
+b1 ps2_clk
+#951700
+b0 ps2_clk
+#952100
+b1 ps2_clk
+#952500
+b0 ps2_clk
+#952900
+b1 ps2_clk
+#953300
+b0 ps2_clk
+#953700
+b1 ps2_clk
+b1 ps2_data
+#954100
+b0 ps2_clk
+#954500
+b1 ps2_clk
+#954900
+b0 ps2_clk
+#955300
+b1 ps2_clk
+#955700
+b0 ps2_clk
+#956100
+b1 ps2_clk
+#956500
+b0 ps2_clk
+#956900
+b1 ps2_clk
+#957300
+b0 ps2_clk
+#957700
+b1 ps2_clk
+#958100
+b0 ps2_clk
+#958105
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[6]
+b1 seg1[7]
+#958500
+b1 ps2_clk
+#960100
+b0 ps2_data
+#960500
+b0 ps2_clk
+#960900
+b1 ps2_clk
+#961300
+b0 ps2_clk
+#961700
+b1 ps2_clk
+#962100
+b0 ps2_clk
+#962500
+b1 ps2_clk
+b1 ps2_data
+#962900
+b0 ps2_clk
+#963300
+b1 ps2_clk
+#963700
+b0 ps2_clk
+#964100
+b1 ps2_clk
+#964500
+b0 ps2_clk
+#964900
+b1 ps2_clk
+#965300
+b0 ps2_clk
+#965700
+b1 ps2_clk
+b0 ps2_data
+#966100
+b0 ps2_clk
+#966500
+b1 ps2_clk
+#966900
+b0 ps2_clk
+#967300
+b1 ps2_clk
+b1 ps2_data
+#967700
+b0 ps2_clk
+#968100
+b1 ps2_clk
+#968500
+b0 ps2_clk
+#968505
+b0 seg2[2]
+b1 seg2[5]
+b1 seg2[6]
+b0 seg2[7]
+#968900
+b1 ps2_clk
+#970500
+b0 ps2_data
+#970900
+b0 ps2_clk
+#971300
+b1 ps2_clk
+#971700
+b0 ps2_clk
+#972100
+b1 ps2_clk
+#972500
+b0 ps2_clk
+#972900
+b1 ps2_clk
+#973300
+b0 ps2_clk
+#973700
+b1 ps2_clk
+b1 ps2_data
+#974100
+b0 ps2_clk
+#974500
+b1 ps2_clk
+#974900
+b0 ps2_clk
+#975300
+b1 ps2_clk
+b0 ps2_data
+#975700
+b0 ps2_clk
+#976100
+b1 ps2_clk
+b1 ps2_data
+#976500
+b0 ps2_clk
+#976900
+b1 ps2_clk
+b0 ps2_data
+#977300
+b0 ps2_clk
+#977700
+b1 ps2_clk
+#978100
+b0 ps2_clk
+#978500
+b1 ps2_clk
+b1 ps2_data
+#978900
+b0 ps2_clk
+#978905
+b0 ledr[3]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[7]
+#979300
+b1 ps2_clk
+#980900
+b0 ps2_data
+#981300
+b0 ps2_clk
+#981700
+b1 ps2_clk
+#982100
+b0 ps2_clk
+#982500
+b1 ps2_clk
+#982900
+b0 ps2_clk
+#983300
+b1 ps2_clk
+#983700
+b0 ps2_clk
+#984100
+b1 ps2_clk
+#984500
+b0 ps2_clk
+#984900
+b1 ps2_clk
+b1 ps2_data
+#985300
+b0 ps2_clk
+#985700
+b1 ps2_clk
+#986100
+b0 ps2_clk
+#986500
+b1 ps2_clk
+#986900
+b0 ps2_clk
+#987300
+b1 ps2_clk
+#987700
+b0 ps2_clk
+#988100
+b1 ps2_clk
+#988500
+b0 ps2_clk
+#988900
+b1 ps2_clk
+#989300
+b0 ps2_clk
+#989305
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[7]
+#989700
+b1 ps2_clk
+#991300
+b0 ps2_data
+#991700
+b0 ps2_clk
+#992100
+b1 ps2_clk
+#992500
+b0 ps2_clk
+#992900
+b1 ps2_clk
+#993300
+b0 ps2_clk
+#993700
+b1 ps2_clk
+#994100
+b0 ps2_clk
+#994500
+b1 ps2_clk
+b1 ps2_data
+#994900
+b0 ps2_clk
+#995300
+b1 ps2_clk
+#995700
+b0 ps2_clk
+#996100
+b1 ps2_clk
+b0 ps2_data
+#996500
+b0 ps2_clk
+#996900
+b1 ps2_clk
+b1 ps2_data
+#997300
+b0 ps2_clk
+#997700
+b1 ps2_clk
+b0 ps2_data
+#998100
+b0 ps2_clk
+#998500
+b1 ps2_clk
+#998900
+b0 ps2_clk
+#999300
+b1 ps2_clk
+b1 ps2_data
+#999700
+b0 ps2_clk
+#999705
+b1 seg2[4]
+#1000100
+b1 ps2_clk
+#1002500
+b0 ps2_data
+#1002900
+b0 ps2_clk
+#1003300
+b1 ps2_clk
+#1003700
+b0 ps2_clk
+#1004100
+b1 ps2_clk
+b1 ps2_data
+#1004500
+b0 ps2_clk
+#1004900
+b1 ps2_clk
+b0 ps2_data
+#1005300
+b0 ps2_clk
+#1005700
+b1 ps2_clk
+#1006100
+b0 ps2_clk
+#1006500
+b1 ps2_clk
+b1 ps2_data
+#1006900
+b0 ps2_clk
+#1007300
+b1 ps2_clk
+b0 ps2_data
+#1007700
+b0 ps2_clk
+#1008100
+b1 ps2_clk
+#1008500
+b0 ps2_clk
+#1008900
+b1 ps2_clk
+#1009300
+b0 ps2_clk
+#1009700
+b1 ps2_clk
+b1 ps2_data
+#1010100
+b0 ps2_clk
+#1010500
+b1 ps2_clk
+#1010900
+b0 ps2_clk
+#1010905
+b1 ledr[2]
+b0 seg0[1]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[6]
+b0 seg0[7]
+b0 seg1[5]
+b0 seg1[6]
+#1011300
+b1 ps2_clk
+#1012900
+b0 ps2_data
+#1013300
+b0 ps2_clk
+#1013700
+b1 ps2_clk
+#1014100
+b0 ps2_clk
+#1014500
+b1 ps2_clk
+b1 ps2_data
+#1014900
+b0 ps2_clk
+#1015300
+b1 ps2_clk
+#1015700
+b0 ps2_clk
+#1016100
+b1 ps2_clk
+b0 ps2_data
+#1016500
+b0 ps2_clk
+#1016900
+b1 ps2_clk
+b1 ps2_data
+#1017300
+b0 ps2_clk
+#1017700
+b1 ps2_clk
+b0 ps2_data
+#1018100
+b0 ps2_clk
+#1018500
+b1 ps2_clk
+#1018900
+b0 ps2_clk
+#1019300
+b1 ps2_clk
+#1019700
+b0 ps2_clk
+#1020100
+b1 ps2_clk
+#1020500
+b0 ps2_clk
+#1020900
+b1 ps2_clk
+b1 ps2_data
+#1021300
+b0 ps2_clk
+#1021305
+b1 lcd_db[0]
+b0 seg0[2]
+b0 seg0[5]
+b1 seg0[6]
+b0 lcd_en
+#1021306
+b0 lcd_db[0]
+b1 lcd_en
+#1021700
+b1 ps2_clk
+#1023300
+b0 ps2_data
+#1023700
+b0 ps2_clk
+#1024100
+b1 ps2_clk
+#1024500
+b0 ps2_clk
+#1024900
+b1 ps2_clk
+#1025300
+b0 ps2_clk
+#1025700
+b1 ps2_clk
+#1026100
+b0 ps2_clk
+#1026500
+b1 ps2_clk
+#1026900
+b0 ps2_clk
+#1027300
+b1 ps2_clk
+b1 ps2_data
+#1027700
+b0 ps2_clk
+#1028100
+b1 ps2_clk
+#1028500
+b0 ps2_clk
+#1028900
+b1 ps2_clk
+#1029300
+b0 ps2_clk
+#1029700
+b1 ps2_clk
+#1030100
+b0 ps2_clk
+#1030500
+b1 ps2_clk
+#1030900
+b0 ps2_clk
+#1031300
+b1 ps2_clk
+#1031700
+b0 ps2_clk
+#1031705
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[7]
+b1 seg1[5]
+b1 seg1[6]
+#1032100
+b1 ps2_clk
+#1033700
+b0 ps2_data
+#1034100
+b0 ps2_clk
+#1034500
+b1 ps2_clk
+#1034900
+b0 ps2_clk
+#1035300
+b1 ps2_clk
+b1 ps2_data
+#1035700
+b0 ps2_clk
+#1036100
+b1 ps2_clk
+b0 ps2_data
+#1036500
+b0 ps2_clk
+#1036900
+b1 ps2_clk
+#1037300
+b0 ps2_clk
+#1037700
+b1 ps2_clk
+b1 ps2_data
+#1038100
+b0 ps2_clk
+#1038500
+b1 ps2_clk
+b0 ps2_data
+#1038900
+b0 ps2_clk
+#1039300
+b1 ps2_clk
+#1039700
+b0 ps2_clk
+#1040100
+b1 ps2_clk
+#1040500
+b0 ps2_clk
+#1040900
+b1 ps2_clk
+b1 ps2_data
+#1041300
+b0 ps2_clk
+#1041700
+b1 ps2_clk
+#1042100
+b0 ps2_clk
+#1042105
+b0 ledr[2]
+b1 seg2[1]
+b0 seg2[4]
+b0 seg2[5]
+b0 seg2[6]
+b0 seg3[1]
+b0 seg3[3]
+b0 seg3[4]
+b1 seg3[5]
+b0 seg3[7]
+#1042500
+b1 ps2_clk
+#1044100
+b0 ps2_data
+#1044500
+b0 ps2_clk
+#1044900
+b1 ps2_clk
+#1045300
+b0 ps2_clk
+#1045700
+b1 ps2_clk
+#1046100
+b0 ps2_clk
+#1046500
+b1 ps2_clk
+#1046900
+b0 ps2_clk
+#1047300
+b1 ps2_clk
+#1047700
+b0 ps2_clk
+#1048100
+b1 ps2_clk
+b1 ps2_data
+#1048500
+b0 ps2_clk
+#1048900
+b1 ps2_clk
+#1049300
+b0 ps2_clk
+#1049700
+b1 ps2_clk
+#1050100
+b0 ps2_clk
+#1050500
+b1 ps2_clk
+#1050900
+b0 ps2_clk
+#1051300
+b1 ps2_clk
+#1051700
+b0 ps2_clk
+#1052100
+b1 ps2_clk
+#1052500
+b0 ps2_clk
+#1052900
+b1 ps2_clk
+#1054500
+b0 ps2_data
+#1054900
+b0 ps2_clk
+#1055300
+b1 ps2_clk
+#1055700
+b0 ps2_clk
+#1056100
+b1 ps2_clk
+b1 ps2_data
+#1056500
+b0 ps2_clk
+#1056900
+b1 ps2_clk
+#1057300
+b0 ps2_clk
+#1057700
+b1 ps2_clk
+b0 ps2_data
+#1058100
+b0 ps2_clk
+#1058500
+b1 ps2_clk
+b1 ps2_data
+#1058900
+b0 ps2_clk
+#1059300
+b1 ps2_clk
+b0 ps2_data
+#1059700
+b0 ps2_clk
+#1060100
+b1 ps2_clk
+#1060500
+b0 ps2_clk
+#1060900
+b1 ps2_clk
+#1061300
+b0 ps2_clk
+#1061700
+b1 ps2_clk
+#1062100
+b0 ps2_clk
+#1062500
+b1 ps2_clk
+b1 ps2_data
+#1062900
+b0 ps2_clk
+#1062905
+b1 seg2[2]
+b1 seg2[3]
+b1 seg2[4]
+b1 seg2[7]
+#1063300
+b1 ps2_clk
+#1064900
+b0 ps2_data
+#1065300
+b0 ps2_clk
+#1065700
+b1 ps2_clk
+#1066100
+b0 ps2_clk
+#1066500
+b1 ps2_clk
+#1066900
+b0 ps2_clk
+#1067300
+b1 ps2_clk
+b1 ps2_data
+#1067700
+b0 ps2_clk
+#1068100
+b1 ps2_clk
+b0 ps2_data
+#1068500
+b0 ps2_clk
+#1068900
+b1 ps2_clk
+b1 ps2_data
+#1069300
+b0 ps2_clk
+#1069700
+b1 ps2_clk
+b0 ps2_data
+#1070100
+b0 ps2_clk
+#1070500
+b1 ps2_clk
+b1 ps2_data
+#1070900
+b0 ps2_clk
+#1071300
+b1 ps2_clk
+b0 ps2_data
+#1071700
+b0 ps2_clk
+#1072100
+b1 ps2_clk
+#1072500
+b0 ps2_clk
+#1072900
+b1 ps2_clk
+b1 ps2_data
+#1073300
+b0 ps2_clk
+#1073305
+b1 lcd_db[0]
+b1 lcd_db[1]
+b1 lcd_db[3]
+b1 lcd_db[4]
+b1 lcd_db[5]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[5]
+b0 seg0[6]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[7]
+b0 lcd_en
+#1073306
+b0 lcd_db[0]
+b0 lcd_db[1]
+b0 lcd_db[3]
+b0 lcd_db[4]
+b0 lcd_db[5]
+b1 lcd_en
+#1073700
+b1 ps2_clk
+#1075300
+b0 ps2_data
+#1075700
+b0 ps2_clk
+#1076100
+b1 ps2_clk
+#1076500
+b0 ps2_clk
+#1076900
+b1 ps2_clk
+#1077300
+b0 ps2_clk
+#1077700
+b1 ps2_clk
+#1078100
+b0 ps2_clk
+#1078500
+b1 ps2_clk
+#1078900
+b0 ps2_clk
+#1079300
+b1 ps2_clk
+b1 ps2_data
+#1079700
+b0 ps2_clk
+#1080100
+b1 ps2_clk
+#1080500
+b0 ps2_clk
+#1080900
+b1 ps2_clk
+#1081300
+b0 ps2_clk
+#1081700
+b1 ps2_clk
+#1082100
+b0 ps2_clk
+#1082500
+b1 ps2_clk
+#1082900
+b0 ps2_clk
+#1083300
+b1 ps2_clk
+#1083700
+b0 ps2_clk
+#1083705
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[5]
+b1 seg0[6]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[7]
+#1084100
+b1 ps2_clk
+#1085700
+b0 ps2_data
+#1086100
+b0 ps2_clk
+#1086500
+b1 ps2_clk
+#1086900
+b0 ps2_clk
+#1087300
+b1 ps2_clk
+#1087700
+b0 ps2_clk
+#1088100
+b1 ps2_clk
+b1 ps2_data
+#1088500
+b0 ps2_clk
+#1088900
+b1 ps2_clk
+b0 ps2_data
+#1089300
+b0 ps2_clk
+#1089700
+b1 ps2_clk
+b1 ps2_data
+#1090100
+b0 ps2_clk
+#1090500
+b1 ps2_clk
+b0 ps2_data
+#1090900
+b0 ps2_clk
+#1091300
+b1 ps2_clk
+b1 ps2_data
+#1091700
+b0 ps2_clk
+#1092100
+b1 ps2_clk
+b0 ps2_data
+#1092500
+b0 ps2_clk
+#1092900
+b1 ps2_clk
+#1093300
+b0 ps2_clk
+#1093700
+b1 ps2_clk
+b1 ps2_data
+#1094100
+b0 ps2_clk
+#1094105
+b0 seg2[1]
+b0 seg2[3]
+b0 seg2[4]
+b1 seg2[5]
+b0 seg2[7]
+#1094500
+b1 ps2_clk
+#1096100
+b0 ps2_data
+#1096500
+b0 ps2_clk
+#1096900
+b1 ps2_clk
+#1097300
+b0 ps2_clk
+#1097700
+b1 ps2_clk
+b1 ps2_data
+#1098100
+b0 ps2_clk
+#1098500
+b1 ps2_clk
+#1098900
+b0 ps2_clk
+#1099300
+b1 ps2_clk
+#1099700
+b0 ps2_clk
+#1100100
+b1 ps2_clk
+b0 ps2_data
+#1100500
+b0 ps2_clk
+#1100900
+b1 ps2_clk
+b1 ps2_data
+#1101300
+b0 ps2_clk
+#1101700
+b1 ps2_clk
+b0 ps2_data
+#1102100
+b0 ps2_clk
+#1102500
+b1 ps2_clk
+#1102900
+b0 ps2_clk
+#1103300
+b1 ps2_clk
+b1 ps2_data
+#1103700
+b0 ps2_clk
+#1104100
+b1 ps2_clk
+#1104500
+b0 ps2_clk
+#1104505
+b1 lcd_db[0]
+b1 lcd_db[2]
+b1 lcd_db[4]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[3]
+b0 seg1[4]
+b0 seg1[6]
+b0 seg1[7]
+b0 lcd_en
+#1104506
+b0 lcd_db[0]
+b0 lcd_db[2]
+b0 lcd_db[4]
+b1 lcd_en
+#1104900
+b1 ps2_clk
+#1106500
+b0 ps2_data
+#1106900
+b0 ps2_clk
+#1107300
+b1 ps2_clk
+#1107700
+b0 ps2_clk
+#1108100
+b1 ps2_clk
+#1108500
+b0 ps2_clk
+#1108900
+b1 ps2_clk
+#1109300
+b0 ps2_clk
+#1109700
+b1 ps2_clk
+#1110100
+b0 ps2_clk
+#1110500
+b1 ps2_clk
+b1 ps2_data
+#1110900
+b0 ps2_clk
+#1111300
+b1 ps2_clk
+#1111700
+b0 ps2_clk
+#1112100
+b1 ps2_clk
+#1112500
+b0 ps2_clk
+#1112900
+b1 ps2_clk
+#1113300
+b0 ps2_clk
+#1113700
+b1 ps2_clk
+#1114100
+b0 ps2_clk
+#1114500
+b1 ps2_clk
+#1114900
+b0 ps2_clk
+#1114905
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[3]
+b1 seg1[4]
+b1 seg1[6]
+b1 seg1[7]
+#1115300
+b1 ps2_clk
+#1116900
+b0 ps2_data
+#1117300
+b0 ps2_clk
+#1117700
+b1 ps2_clk
+#1118100
+b0 ps2_clk
+#1118500
+b1 ps2_clk
+b1 ps2_data
+#1118900
+b0 ps2_clk
+#1119300
+b1 ps2_clk
+#1119700
+b0 ps2_clk
+#1120100
+b1 ps2_clk
+#1120500
+b0 ps2_clk
+#1120900
+b1 ps2_clk
+b0 ps2_data
+#1121300
+b0 ps2_clk
+#1121700
+b1 ps2_clk
+b1 ps2_data
+#1122100
+b0 ps2_clk
+#1122500
+b1 ps2_clk
+b0 ps2_data
+#1122900
+b0 ps2_clk
+#1123300
+b1 ps2_clk
+#1123700
+b0 ps2_clk
+#1124100
+b1 ps2_clk
+b1 ps2_data
+#1124500
+b0 ps2_clk
+#1124900
+b1 ps2_clk
+#1125300
+b0 ps2_clk
+#1125305
+b1 seg2[3]
+b0 seg2[5]
+#1125700
+b1 ps2_clk
+#1127300
+b0 ps2_data
+#1127700
+b0 ps2_clk
+#1128100
+b1 ps2_clk
+#1128500
+b0 ps2_clk
+#1128900
+b1 ps2_clk
+b1 ps2_data
+#1129300
+b0 ps2_clk
+#1129700
+b1 ps2_clk
+#1130100
+b0 ps2_clk
+#1130500
+b1 ps2_clk
+b0 ps2_data
+#1130900
+b0 ps2_clk
+#1131300
+b1 ps2_clk
+#1131700
+b0 ps2_clk
+#1132100
+b1 ps2_clk
+#1132500
+b0 ps2_clk
+#1132900
+b1 ps2_clk
+b1 ps2_data
+#1133300
+b0 ps2_clk
+#1133700
+b1 ps2_clk
+b0 ps2_data
+#1134100
+b0 ps2_clk
+#1134500
+b1 ps2_clk
+#1134900
+b0 ps2_clk
+#1135300
+b1 ps2_clk
+b1 ps2_data
+#1135700
+b0 ps2_clk
+#1135705
+b1 lcd_db[0]
+b1 lcd_db[3]
+b1 lcd_db[4]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg0[7]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[5]
+b0 seg1[6]
+b0 lcd_en
+#1135706
+b0 lcd_db[0]
+b0 lcd_db[3]
+b0 lcd_db[4]
+b1 lcd_en
+#1136100
+b1 ps2_clk
+#1137700
+b0 ps2_data
+#1138100
+b0 ps2_clk
+#1138500
+b1 ps2_clk
+#1138900
+b0 ps2_clk
+#1139300
+b1 ps2_clk
+#1139700
+b0 ps2_clk
+#1140100
+b1 ps2_clk
+#1140500
+b0 ps2_clk
+#1140900
+b1 ps2_clk
+#1141300
+b0 ps2_clk
+#1141700
+b1 ps2_clk
+b1 ps2_data
+#1142100
+b0 ps2_clk
+#1142500
+b1 ps2_clk
+#1142900
+b0 ps2_clk
+#1143300
+b1 ps2_clk
+#1143700
+b0 ps2_clk
+#1144100
+b1 ps2_clk
+#1144500
+b0 ps2_clk
+#1144900
+b1 ps2_clk
+#1145300
+b0 ps2_clk
+#1145700
+b1 ps2_clk
+#1146100
+b0 ps2_clk
+#1146105
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg0[7]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[5]
+b1 seg1[6]
+#1146500
+b1 ps2_clk
+#1148100
+b0 ps2_data
+#1148500
+b0 ps2_clk
+#1148900
+b1 ps2_clk
+#1149300
+b0 ps2_clk
+#1149700
+b1 ps2_clk
+b1 ps2_data
+#1150100
+b0 ps2_clk
+#1150500
+b1 ps2_clk
+#1150900
+b0 ps2_clk
+#1151300
+b1 ps2_clk
+b0 ps2_data
+#1151700
+b0 ps2_clk
+#1152100
+b1 ps2_clk
+#1152500
+b0 ps2_clk
+#1152900
+b1 ps2_clk
+#1153300
+b0 ps2_clk
+#1153700
+b1 ps2_clk
+b1 ps2_data
+#1154100
+b0 ps2_clk
+#1154500
+b1 ps2_clk
+b0 ps2_data
+#1154900
+b0 ps2_clk
+#1155300
+b1 ps2_clk
+#1155700
+b0 ps2_clk
+#1156100
+b1 ps2_clk
+b1 ps2_data
+#1156500
+b0 ps2_clk
+#1156505
+b0 seg2[2]
+b1 seg2[4]
+b1 seg2[7]
+#1156900
+b1 ps2_clk
+#1158500
+b0 ps2_data
+#1158900
+b0 ps2_clk
+#1159300
+b1 ps2_clk
+b1 ps2_data
+#1159700
+b0 ps2_clk
+#1160100
+b1 ps2_clk
+#1160500
+b0 ps2_clk
+#1160900
+b1 ps2_clk
+b0 ps2_data
+#1161300
+b0 ps2_clk
+#1161700
+b1 ps2_clk
+b1 ps2_data
+#1162100
+b0 ps2_clk
+#1162500
+b1 ps2_clk
+#1162900
+b0 ps2_clk
+#1163300
+b1 ps2_clk
+b0 ps2_data
+#1163700
+b0 ps2_clk
+#1164100
+b1 ps2_clk
+b1 ps2_data
+#1164500
+b0 ps2_clk
+#1164900
+b1 ps2_clk
+b0 ps2_data
+#1165300
+b0 ps2_clk
+#1165700
+b1 ps2_clk
+#1166100
+b0 ps2_clk
+#1166500
+b1 ps2_clk
+b1 ps2_data
+#1166900
+b0 ps2_clk
+#1166905
+b1 lcd_db[0]
+b1 lcd_db[2]
+b1 lcd_db[3]
+b1 lcd_db[4]
+b1 lcd_db[5]
+b0 seg0[1]
+b0 seg0[2]
+b0 seg0[3]
+b0 seg0[4]
+b0 seg0[5]
+b0 seg1[1]
+b0 seg1[2]
+b0 seg1[4]
+b0 seg1[5]
+b0 seg1[7]
+b0 lcd_en
+#1166906
+b0 lcd_db[0]
+b0 lcd_db[2]
+b0 lcd_db[3]
+b0 lcd_db[4]
+b0 lcd_db[5]
+b1 lcd_en
+#1167300
+b1 ps2_clk
+#1168900
+b0 ps2_data
+#1169300
+b0 ps2_clk
+#1169700
+b1 ps2_clk
+#1170100
+b0 ps2_clk
+#1170500
+b1 ps2_clk
+#1170900
+b0 ps2_clk
+#1171300
+b1 ps2_clk
+#1171700
+b0 ps2_clk
+#1172100
+b1 ps2_clk
+#1172500
+b0 ps2_clk
+#1172900
+b1 ps2_clk
+b1 ps2_data
+#1173300
+b0 ps2_clk
+#1173700
+b1 ps2_clk
+#1174100
+b0 ps2_clk
+#1174500
+b1 ps2_clk
+#1174900
+b0 ps2_clk
+#1175300
+b1 ps2_clk
+#1175700
+b0 ps2_clk
+#1176100
+b1 ps2_clk
+#1176500
+b0 ps2_clk
+#1176900
+b1 ps2_clk
+#1177300
+b0 ps2_clk
+#1177305
+b1 seg0[1]
+b1 seg0[2]
+b1 seg0[3]
+b1 seg0[4]
+b1 seg0[5]
+b1 seg1[1]
+b1 seg1[2]
+b1 seg1[4]
+b1 seg1[5]
+b1 seg1[7]
+#1177700
+b1 ps2_clk
+#1179300
+b0 ps2_data
+#1179700
+b0 ps2_clk
+#1180100
+b1 ps2_clk
+b1 ps2_data
+#1180500
+b0 ps2_clk
+#1180900
+b1 ps2_clk
+#1181300
+b0 ps2_clk
+#1181700
+b1 ps2_clk
+b0 ps2_data
+#1182100
+b0 ps2_clk
+#1182500
+b1 ps2_clk
+b1 ps2_data
+#1182900
+b0 ps2_clk
+#1183300
+b1 ps2_clk
+#1183700
+b0 ps2_clk
+#1184100
+b1 ps2_clk
+b0 ps2_data
+#1184500
+b0 ps2_clk
+#1184900
+b1 ps2_clk
+b1 ps2_data
+#1185300
+b0 ps2_clk
+#1185700
+b1 ps2_clk
+b0 ps2_data
+#1186100
+b0 ps2_clk
+#1186500
+b1 ps2_clk
+#1186900
+b0 ps2_clk
+#1187300
+b1 ps2_clk
+b1 ps2_data
+#1187700
+b0 ps2_clk
+#1187705
+b0 seg2[4]
+b1 seg2[6]
+b0 seg2[7]
+#1188100
+b1 ps2_clk

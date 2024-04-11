@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Rabbit Project File-->
+<project name="rabbitpj" constraint="../ps2keyboard_cons.xml" bitstream="../keyboardYosys_fde_yosys.bit">
+    <panel grid_width="50" grid_height="50"/>
+    <components>
+        <component type="SegmentDisplay" name="cnt" grid_x="6" grid_y="3">
+            <settings>
+                <setting name="is_low_active" value="true"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P63" port="A"/>
+                <output pin="P71" port="B"/>
+                <output pin="P73" port="C"/>
+                <output pin="P82" port="D"/>
+                <output pin="P83" port="E"/>
+                <output pin="P84" port="F"/>
+                <output pin="P93" port="G"/>
+                <output pin="P94" port="DP"/>
+            </outputs>
+        </component>
+        <component type="PS2Keyboard" name="keyboard" grid_x="1" grid_y="1">
+            <settings>
+                <setting name="is_low_active" value="false"/>
+            </settings>
+            <inputs>
+                <input pin="P148" port="PCLK"/>
+                <input pin="P150" port="PDATA"/>
+            </inputs>
+            <outputs/>
+        </component>
+        <component type="LED" name="CTRL" grid_x="12" grid_y="6">
+            <settings>
+                <setting name="is_low_active" value="false"/>
+                <setting name="color" usage="LED color" value="Red"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P11" port="LED"/>
+            </outputs>
+        </component>
+        <component type="LED" name="SHIFT" grid_x="8" grid_y="6">
+            <settings>
+                <setting name="is_low_active" value="false"/>
+                <setting name="color" usage="LED color" value="Red"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P20" port="LED"/>
+            </outputs>
+        </component>
+        <component type="Button" name="rst" grid_x="1" grid_y="5">
+            <settings>
+                <setting name="is_low_active" value="false"/>
+            </settings>
+            <inputs>
+                <input pin="P151" port="BTN"/>
+            </inputs>
+            <outputs/>
+        </component>
+        <component type="LED" name="CAPS" grid_x="6" grid_y="6">
+            <settings>
+                <setting name="is_low_active" value="false"/>
+                <setting name="color" usage="LED color" value="Red"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P18" port="LED"/>
+            </outputs>
+        </component>
+        <component type="SegmentDisplay" name="value" grid_x="10" grid_y="3">
+            <settings>
+                <setting name="is_low_active" value="true"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P30" port="A"/>
+                <output pin="P36" port="B"/>
+                <output pin="P35" port="C"/>
+                <output pin="P34" port="D"/>
+                <output pin="P33" port="E"/>
+                <output pin="P42" port="F"/>
+                <output pin="P41" port="G"/>
+                <output pin="P40" port="DP"/>
+            </outputs>
+        </component>
+        <component type="LED" name="ALT" grid_x="10" grid_y="6">
+            <settings>
+                <setting name="is_low_active" value="false"/>
+                <setting name="color" usage="LED color" value="Red"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P10" port="LED"/>
+            </outputs>
+        </component>
+        <component type="SegmentDisplay" name="cnt" grid_x="8" grid_y="3">
+            <settings>
+                <setting name="is_low_active" value="true"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P98" port="A"/>
+                <output pin="P99" port="B"/>
+                <output pin="P109" port="C"/>
+                <output pin="P110" port="D"/>
+                <output pin="P29" port="E"/>
+                <output pin="P27" port="F"/>
+                <output pin="P24" port="G"/>
+                <output pin="P31" port="DP"/>
+            </outputs>
+        </component>
+        <component type="SegmentDisplay" name="value" grid_x="12" grid_y="3">
+            <settings>
+                <setting name="is_low_active" value="true"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P43" port="A"/>
+                <output pin="P46" port="B"/>
+                <output pin="P45" port="C"/>
+                <output pin="P44" port="D"/>
+                <output pin="P23" port="E"/>
+                <output pin="P21" port="F"/>
+                <output pin="P22" port="G"/>
+                <output pin="P17" port="DP"/>
+            </outputs>
+        </component>
+        <component type="TextLCD" name="Untitled" grid_x="6" grid_y="0">
+            <settings>
+                <setting name="is_low_active" value="false"/>
+            </settings>
+            <inputs/>
+            <outputs>
+                <output pin="P60" port="EN"/>
+                <output pin="P7" port="DB0"/>
+                <output pin="P6" port="DB1"/>
+                <output pin="P5" port="DB2"/>
+                <output pin="P4" port="DB3"/>
+                <output pin="P9" port="DB4"/>
+                <output pin="P8" port="DB5"/>
+                <output pin="P16" port="DB6"/>
+                <output pin="P15" port="DB7"/>
+            </outputs>
+        </component>
+    </components>
+</project>
